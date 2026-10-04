@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sistema Solar</title>
+ <!-- Google Fonts: preconnect speeds up the font request handshake -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" /> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- Primary typeface: IBM Plex Sans (light / regular / medium) -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+ <!-- Stylesheets
+         variaveis.css: global design tokens (colors, spacing, type)
+         sistema.css: styles for the solar system view and overlay -->
+    <link rel="stylesheet" href="css/variaveis.css" />
+    <link rel="stylesheet" href="css/sistema.css" />
+  </head>
+  <body>
+    <!-- ============================================================
+         Back button — returns the user to the galaxy view.
+         Visual styling is handled fully in CSS (no inner text).
+         ============================================================ -->
+    <a id="back-galaxia" href="galaxia.html" aria-label="Voltar à galáxia"></a>
+    <!-- ============================================================
+         Main container — solar system scene for the current project.
+         Populated dynamically by sistema.js.
+         ============================================================ -->
+    <div id="sistema"></div>
+    <div id="sistema-caption" class="hidden"></div> <!-- General project caption, pinned at the bottom center -->
+ <!-- ============================================================
+         Fullscreen overlay
+         Opens when the user focuses an individual media item.
+         Shows the piece at full size with a "next" control.
+         ============================================================ -->
+    <div id="overlay-backdrop"></div> <!-- Dimmed background behind the overlay -->
+    <div id="overlay" class="hidden"> <!-- Main overlay container (media + controls) -->
+      <div class="overlay-row"> <!-- Row wrapper: media on the left, button on the right -->
+        <div class="overlay-media"></div> <!-- Image/video injected here via JS -->
+        <div class="overlay-buttons"> <!-- Button stack (currently only "next") -->
+          <button id="btn-next" aria-label="Seguinte">›</button> <!-- Advances to the next media -->
+        </div>
+      </div>
+    </div>
+    <div id="overlay-caption" class="hidden"></div> <!-- Per-item caption shown only in individual (overlay) mode -->
+ <!-- Scripts
+         sistema.js: builds the solar system scene and controls the overlay -->
+    <script src="js/sistema.js"></script>
+  </body>
+</html>
+

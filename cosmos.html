@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cosmos</title>
+ <!-- Google Fonts: preconnect speeds up the font request handshake -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+     <!-- Primary typeface: IBM Plex Sans (light / regular / medium) -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+      <!-- Stylesheets
+         variaveis.css: global design tokens (colors, spacing, type)
+         intro.css: opening animation / splash sequence
+         cosmos.css: styles for the interactive cosmos view -->
+    <link rel="stylesheet" href="css/variaveis.css" />
+    <link rel="stylesheet" href="css/intro.css" />
+    <link rel="stylesheet" href="css/cosmos.css" />
+  </head>
+  <body>
+ <!-- ============================================================
+         COSMOS VIEW
+         Interactive canvas where each project appears as a point.
+         Hovering a point reveals its title inside #tooltip.
+         ============================================================ -->
+
+    <!-- About button — opens the "About" page.
+         The plus sign ("+") is used as a minimalist visual cue;
+         aria-label keeps it accessible for screen readers. -->
+    <a href="about.html" class="about-btn" aria-label="Sobre">+</a>
+    <!-- Main container: the cosmos scene is injected here by cosmos.js -->
+    <div id="cosmos"></div>
+      <!-- Floating label shown on hover/focus over a project point -->
+    <div id="tooltip"></div>
+     <!-- Scripts (load order matters)
+         data.js: project dataset (titles, coordinates, metadata)
+         intro.js: handles the opening animation
+         cosmos.js: builds and controls the interactive scene -->
+    <script src="js/data.js"></script>
+    <script src="js/intro.js"></script>
+    <script src="js/cosmos.js"></script>
+  </body>
+</html>

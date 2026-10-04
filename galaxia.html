@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Galáxia</title>
+ <!-- Google Fonts: preconnect speeds up the font request handshake -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- Primary typeface: IBM Plex Sans (light / regular / medium) -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+ <!-- Stylesheets
+         variaveis.css: global design tokens (colors, spacing, type)
+         galaxia.css: styles for the grid view and overlay -->
+    <link rel="stylesheet" href="css/variaveis.css" />
+    <link rel="stylesheet" href="css/galaxia.css" />
+  </head>
+  <body>
+    <!-- ============================================================
+         Back button — returns the user to the cosmos view.
+         Visual styling is handled fully in CSS (no inner text).
+         ============================================================ -->
+    <a
+      id="back-cosmos"
+      href="cosmos.html"
+      title="Voltar ao cosmos"
+      aria-label="Voltar ao cosmos"
+    ></a>
+    <!-- Floating label shown on hover/focus over a grid item -->
+    <div id="tooltip" class="hidden"></div>
+     <!-- ============================================================
+         Main grid — thumbnails for the current project.
+         Populated dynamically by galaxia.js using data.js.
+         ============================================================ -->
+    <div id="galaxia"></div>
+  <!-- ============================================================
+         Fullscreen overlay
+         Opens when the user clicks a thumbnail. Shows the media
+         at full size with navigation controls.
+         ============================================================ -->
+    <div id="overlay-backdrop" class="hidden"></div> <!-- Dimmed background behind the overlay -->
+    <div id="overlay" class="hidden"> <!-- Main overlay container (media + caption + controls) -->
+      <div class="overlay-row"> <!-- Row wrapper: media on the left, buttons on the right -->
+        <div class="overlay-media"></div> <!-- Image/video injected here via JS -->
+        <div class="overlay-buttons"> <!-- Vertical stack of control buttons -->
+          <button id="btn-close" title ="Fechar">✕</button> <!-- Closes the overlay -->
+          <button id="btn-next" title="Próximo">›</button> <!-- Advances to the next media -->
+          <button id="btn-plus" class="hidden" title="Mais">+</button> <!-- Optional "more info" action (hidden by default) -->
+        </div>
+      </div>
+      <div id="overlay-caption"></div> <!-- Textual caption shown below the media -->
+    </div>
+ <!-- Scripts (load order matters)
+         data.js: project dataset (titles, media, metadata)
+         galaxia.js: builds the grid and controls the overlay -->
+    <script src="js/data.js"></script>
+    <script src="js/galaxia.js"></script>
+  </body>
+</html>
