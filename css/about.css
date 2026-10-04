@@ -1,0 +1,230 @@
+/* ---------- Global reset ----------
+   Normalises box model and strips default spacing so layout
+   math stays predictable across elements. */
+   
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* ---------- Base / body ----------
+   Dark theme base. Bottom padding reserves space for the
+   fixed contact bar so content isn't hidden behind it on
+   mobile. */
+body {
+  background: #1c1c1c;
+  color: #ececec;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 300;
+  min-height: 100vh;
+  padding: 32px 24px 96px; /* espaço em baixo p/ contactos fixos */
+}
+
+/* Links inherit color from their parent context and ship
+   without the default underline. */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* ---------- Back button ----------
+   Circular button pinned to the top-right corner.
+   Sits above everything else (z-index: 1000) so it stays
+   reachable regardless of the current layout. */
+.back-btn {
+  position: fixed;
+  top: 20px;
+  right: 2vw;
+  width: 36px;
+  height: 36px;
+  border: 1px solid #1c1c1c;
+  border-radius: 50%;
+  z-index: 1000;
+  background-color: #ececec;
+  backdrop-filter: blur(4px);
+  color: #1c1c1c;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1;
+  display: flex;          /* flex centering for the inner glyph/icon */
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  transition: background-color 0.25s ease;
+}
+/* Hover state inverts the color scheme (light ↔ dark). */
+.back-btn:hover {
+  background-color: #1c1c1c;
+  border: 1px solid #ececec;
+  color: #ececec;
+}
+
+/* ---------- Header (page title) ---------- */
+.about-header h1 {
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  margin-bottom: 32px;
+}
+
+/* ---------- Body copy ----------
+   Capped width for a comfortable measure (~60–70 chars per
+   line) on mobile. This cap is removed in the tablet layout. */
+.about-text {
+  max-width: 640px;
+}
+
+.about-text p {
+  font-size: 15px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+/* Paragraph variants:
+   .p1 — standard paragraph (light weight).
+   .p2 — secondary paragraph: italic + reduced opacity,
+         used for asides, captions or signatures. */
+.p1 {
+  font-weight: 300;
+}
+
+.p2 {
+  font-style: italic;
+  font-weight: 300;
+  opacity: 0.7;
+}
+
+/* ---------- Contacts bar ----------
+   Mobile: full-width bar pinned to the bottom of the viewport
+   with links evenly distributed. Solid background + top border
+   keep it legible over scrolling content. */
+.about-contacts {
+  position: fixed;
+  bottom: 0px;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-around;
+  gap: 16px;
+  padding: 12px 24px;
+  background: #1c1c1c;
+  border-top: 0.5px solid whitesmoke;
+  font-size: 14px;
+  z-index: 999;
+}
+
+.about-contacts a {
+  text-decoration: none;
+  transition: color 0.25s ease;
+}
+
+/* Hover accent (lilac). */
+.about-contacts a:hover {
+  color: #caadff;
+}
+
+/* ============================================================
+   TABLET (≥ 768px)
+   Switches to a two-column layout:
+   - Left column:  fixed title (top) and stacked contacts (bottom).
+   - Right column: scrollable text panel.
+   Body scroll is disabled so only the text column scrolls.
+   ============================================================ */
+@media (min-width: 768px) {
+  body {
+    padding: 0;
+    height: 100vh;
+    overflow: hidden;       /* lock page scroll — text column scrolls instead */
+  }
+
+  /* Left column header, pinned top-left.
+     Width = half the viewport minus left+right gutters (40 + 40). */
+  .about-header {
+    position: fixed;
+    top: 40px;
+    left: 40px;
+    width: calc(50% - 80px);
+    z-index: 10;
+  }
+
+  .about-header h1 {
+    font-size: 22px;
+    margin-bottom: 0;       /* no sibling below, so no spacing needed */
+  }
+
+/* Right column: independently scrollable text panel.
+     Fills the right half of the viewport, full height. */
+  .about-text {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 100vh;
+    padding: 40px 60px 60px 20px;
+    overflow-y: auto;
+    max-width: none;        /* lift the mobile 640px cap */
+  }
+
+  .about-text p {
+    font-size: 15px;
+    line-height: 1.55;
+    margin-bottom: 22px;
+  }
+
+  /* Contacts: reflow from bottom bar to a vertical stack
+     anchored in the bottom-left corner (left column). */
+  .about-contacts {
+    top: auto;
+    bottom: 40px;
+    left: 40px;
+    right: auto;
+    width: auto;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+    padding: 0;
+    font-size: 15px;
+    background: transparent;
+    border-top: none;
+    backdrop-filter: none;
+  }
+}
+
+/* ============================================================
+   DESKTOP (≥ 1200px) — fine-tuning only
+   Larger gutters and more generous text padding to give the
+   layout room to breathe on wider viewports.
+   ============================================================ */
+@media (min-width: 1200px) {
+  .about-header {
+    top: 60px;
+    left: 60px;
+  }
+
+  .about-contacts {
+    bottom: 60px;
+    left: 60px;
+  }
+
+  .about-text {
+    padding: 60px 120px 60px 40px;
+  }
+
+  .about-text p {
+    font-size: 15px;
+    line-height: 1.6;
+  }
+}
+
+/* ---------- Custom scrollbar (text column) ----------
+   WebKit-only (Chrome, Safari, Edge). Thin, translucent
+   thumb so it doesn't compete with the content.
+   Firefox will fall back to its native scrollbar. */
+.about-text::-webkit-scrollbar {
+  width: 6px;
+}
+.about-text::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 3px;
+}

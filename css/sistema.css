@@ -1,0 +1,388 @@
+/* ---------- Global reset ----------
+   Same base reset as the other pages: zero margins/padding,
+   border-box sizing and no text selection anywhere (the page
+   is drag-interactive). */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* ---------- Base / root ----------
+   Dark background and custom font. min-height: 100vh (not
+   max-) because here the grid may be taller than the viewport
+   and we want the body to grow with it, so the page scrolls. */
+html,
+body {
+  background: var(--preto);
+  font-family: "IBM Plex Sans", sans-serif;
+  min-height: 100vh;
+}
+
+/* Centers the solar system in the viewport.
+   "safe" keyword keeps it reachable when the content is
+   larger than the viewport: instead of clipping equally on
+   both sides, it falls back to start-alignment so you can
+   still scroll to the edges. */
+body {
+  display: flex;
+  align-items: safe center;
+  justify-content: safe center;
+}
+
+/* ---------- "Back to galáxia" floating button ----------
+   Pinned top-left circular button. z-index 800 puts it above
+   both the overlay (600) and the caption (700) so you can
+   always leave the page, even with the viewer open. */
+#back-galaxia {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  width: var(--b-grande-size);
+  height: var(--b-grande-size);
+  border: 1px solid var(--branco);
+  border-radius: 50%;
+  z-index: 800; 
+  background-color: rgba(10, 10, 10, 0.7);
+  background-image: url("../media/icons/back.png");
+  background-size: 60%;
+  background-position: center;
+  background-repeat: no-repeat;
+  backdrop-filter: blur(4px);
+  text-decoration: none;
+  transition: background-color 0.25s ease;
+}
+
+#back-galaxia:hover {
+  background-color: rgba(85, 85, 85, 0.7);
+}
+
+/* ============================================================
+   SOLAR SYSTEM GRID
+   Grid dimensions (--cols / --rows) are injected by JS,
+   making this layout fully data-driven. width: max-content
+   sizes the grid to its content; flex-shrink: 0 prevents
+   the flex-centered body from squeezing it horizontally.
+   The fixed parallax background matches the galáxia page.
+   ============================================================ */
+#sistema {
+  /* --cols and --rows are injected by JS */
+  --cell: var(--SScell);
+
+  display: grid;
+  grid-template-columns: repeat(var(--cols), var(--cell));
+  grid-template-rows: repeat(var(--rows), var(--cell));
+  gap: var(--gap);
+  width: max-content;
+  cursor: grab;
+  user-select: none;
+  background-image: url("../media/fundo.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  flex-shrink: 0;        /* keep the body's flex from shrinking the grid */
+}
+
+
+/* Dragging state (class toggled by JS). */
+#sistema.dragging {
+  cursor: grabbing;
+}
+
+/* Disable pointer events on cells during a drag so a pan
+   gesture doesn't end in an accidental cell click. */
+#sistema.dragging .gcell {
+  pointer-events: none;
+}
+
+/* ---------- Grid cell ----------
+   Fixed square with a hairline border, same model as galáxia. */
+.gcell {
+  width: var(--cell);
+  height: var(--cell);
+  overflow: hidden;
+  position: relative;
+  border: 0.2px solid grey;
+}
+
+/* Uniform hover overlay on every cell (same recipe as galáxia):
+   slow fade-out by default (1.2s), then fast fade-in (0.25s)
+   on :hover / .linger — the "linger" class lets JS keep the
+   overlay visible after the pointer leaves. */
+.gcell::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: rgba(85, 85, 85, 0);
+  transition: background 1.2s ease;
+}
+
+.gcell:hover::after,
+.gcell.linger::after {
+  background: rgba(85, 85, 85, 0.25);
+  transition: background 0.25s ease;
+}
+
+/* ---------- Empty / placeholder cell variants ----------
+   Used to shape the composition of the grid without content.
+   Compared to galáxia, this page adds a "gray" variant too. */
+.gcell.empty-black {
+  background: transparent;
+}
+.gcell.empty-white {
+  background: var(--branco);
+}
+
+.gcell.empty-gray {
+  background: var(--cinza);
+}
+
+/* Clickable only when the cell actually has content. */
+.gcell.has-content {
+  cursor: pointer;
+}
+
+/* ---------- Media inside a cell ----------
+   Same contain-with-white-backdrop trick as galáxia: aspect
+   ratio preserved, letterbox filled with white so it looks
+   deliberate rather than empty. */
+.gcell img.media,
+.gcell video.media {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: top left;
+  display: block;
+  background: var(--branco);
+}
+
+/* ---------- Text preview (text-only cells) ----------
+   Unlike galáxia, here sizes are fixed (12px padding, 14px
+   font) rather than proportional to the cell. Readable body
+   style instead of the "chopped word" look.
+   overflow: hidden clips anything that doesn't fit the cell. */
+.gcell .text-preview {
+  width: 100%;
+  height: 100%;
+  padding: 12px;
+  background: var(--branco);
+  color: var(--preto);
+  font-size: 14px;
+  line-height: 1.45;
+  font-weight: 350;
+  overflow: hidden;
+}
+
+/* ---------- Play indicator (video cells) ----------
+   Same object-fit: contain geometry as galáxia — --vratio is
+   set per-cell by JS so the triangle sits over the visible
+   video area, not over the letterboxing. */
+.gcell .play-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: min(100%, calc(100% * var(--vratio, 1)));
+  height: min(100%, calc(100% / var(--vratio, 1)));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+}
+
+/* CSS-only play triangle with a soft shadow for legibility. */
+.gcell .play-icon::before {
+  content: "";
+  width: 0;
+  height: 0;
+  border-left: 18px solid var(--branco);
+  border-top: 12px solid transparent;
+  border-bottom: 12px solid transparent;
+  filter: drop-shadow(0 0 6px rgba(0, 0, 0, 0.5));
+}
+
+/* ============================================================
+   SYSTEM-WIDE CAPTION (always at the bottom)
+   Persistent label for the current section/section-name.
+   z-index 550 keeps it above the backdrop (500) but below
+   the overlay (600) and its own caption (700).
+   ============================================================ */
+#sistema-caption {
+  position: fixed;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--cor-destaque);
+  color: var(--preto);
+  padding: 4px 8px;
+  font-size: 12px;
+  border-radius: 4px;
+  max-width: 40vw;
+  text-align: center;
+  z-index: 550;
+  transition: opacity 0.15s ease;
+}
+
+/* Fades out instead of disappearing abruptly. */
+#sistema-caption.hidden {
+  opacity: 0;
+}
+
+/* ============================================================
+   OVERLAY (modal-style media viewer)
+   Opens when a cell is clicked. Backdrop + centered content
+   box + next button + its own caption pinned below.
+   ============================================================ */
+
+/* Dim backdrop. Here written as a solid color + opacity
+   (functionally equivalent to the rgba() used in galáxia). */
+#overlay-backdrop {
+  position: fixed;
+  inset: 0;
+  background: var(--preto);
+  opacity: 95%;
+  z-index: 500;
+}
+#overlay-backdrop.hidden {
+  display: none;
+}
+
+/* The overlay box is centered via left/top: 50% + translate
+   (not positioned by JS like in galáxia).
+   max-height leaves 120px of breathing room at the bottom so
+   the two captions never collide with the media. */
+#overlay {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 600;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  max-width: calc(100vw - 32px);
+  max-height: calc(100vh - 120px); /* leaves room for the bottom captions */
+}
+#overlay.hidden {
+  display: none;
+}
+
+/* One row inside the overlay: media + absolutely-positioned
+   button column anchored off its right edge. */
+.overlay-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  min-height: 0;
+  position: relative;
+}
+
+/* Media wrapper — min-* allow shrinking inside flex. */
+.overlay-media {
+  display: flex;
+  min-width: 0;
+  min-height: 0;
+}
+
+/* Image/video capped by design tokens, same as galáxia. */
+.overlay-media img,
+.overlay-media video {
+  display: block;
+  max-width: var(--largura);
+  max-height: var(--altura);
+  object-fit: contain;
+}
+
+/* Full-text variant — long-form text instead of media.
+   Width uses min() so it caps at 520px on big screens and
+   adapts on smaller ones (viewport minus space for the
+   button column). Scrolls vertically when needed. */
+.overlay-media .full-text {
+  width: min(520px, calc(80vw - 100px));
+  height: auto;
+  overflow-y: auto;
+  padding: 15px 30px;
+  background: var(--preto);
+  border: 0.2px solid grey;
+  color: var(--branco);
+  font-size: 15px;
+  line-height: 1.65;
+  font-weight: 300;
+  white-space: pre-wrap;          /* preserve newlines in the source text */
+}
+
+/* ---------- Overlay buttons ----------
+   Stacked just outside the media's right edge. */
+.overlay-buttons {
+  position: absolute;
+  left: 100%;
+  top: 0;
+  margin-left: 8px; 
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+/* Next button — single button on this page (no close/plus,
+   unlike galáxia). Uses fixed 32px sizing instead of the
+   button-size design tokens. */
+#btn-next {
+  border: none;
+  background: var(--branco);
+  color: var(--preto);
+  border: 1px solid var(--preto);
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: inherit;
+  padding: 0;
+  border-radius: 100%;
+  font-weight: 300;
+  width: 32px;
+  height: 32px;
+  transition:
+    background-color 0.25s ease,
+    color 0.25s ease;
+}
+
+#btn-next:hover {
+  background: #ccc;
+}
+
+/* Generic hide utility for buttons (e.g. when there's no
+   "next" item available). */
+.overlay-buttons button.hidden {
+  display: none;
+}
+
+/* ---------- Overlay caption ----------
+   Caption for the currently-open piece. Sits above the
+   general system caption (z-index 700 > 550) so when the
+   viewer is open its label takes precedence visually.
+   Uses solid white background (vs. the accent-colored
+   system caption) to distinguish them at a glance. */
+#overlay-caption {
+  position: fixed;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--branco);
+  color: var(--preto);
+  padding: 4px 8px;
+  font-size: 12px;
+  border-radius: 4px;
+  max-width: 56vw;
+  text-align: center;
+  z-index: 700;
+}
+
+#overlay-caption.hidden {
+  display: none;
+}

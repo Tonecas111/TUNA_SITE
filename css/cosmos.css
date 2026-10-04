@@ -1,0 +1,233 @@
+/* ---------- Global reset ----------
+   Normalises box model and strips default spacing so grid
+   math stays predictable. */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ---------- Custom font ----------
+   Variable font file (weight + width axes). Loaded locally;
+   referenced below via font-family: "IBM plex sans". */
+@font-face {
+  font-family: "IBM plex sans";
+  src: url(IBMPlexSans-VariableFont_wdth\,wght.ttf);
+}
+
+/* ---------- Base / root ----------
+   Full-viewport canvas with no page scroll — the layout is
+   designed to fit the screen exactly (grid auto-sizes to it). */
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background: var(--preto);
+  overflow: hidden;
+}
+
+/* ---------- Subtle noise overlay ----------
+   SVG fractal-noise texture inlined as a data URI so it
+   ships with the CSS (no extra HTTP request).
+   - position: fixed + inset: 0, covers the whole viewport.
+   - pointer-events: none, never blocks interaction.
+   - mix-blend-mode: screen, lightens underlying pixels
+     for a film-grain feel on the dark background. */
+body::after {
+  content: "";
+  position: fixed; 
+  inset: 0;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='200' height='200'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2'/><feColorMatrix values='0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 0.08 0'/></filter><rect width='200' height='200' filter='url(%23n)'/></svg>");
+  opacity: 0.4;
+  pointer-events: none;
+  z-index: 1;
+  mix-blend-mode: screen;
+}
+
+/* ---------- About button ----------
+   Circular button pinned to the top-right corner, kept above
+   the grid and tooltip stack (z-index: 1000). Sizing/typography
+   driven by design tokens so it stays in sync across pages. */
+.about-btn {
+  position: fixed;
+  top: 20px;
+  right: 2vw;
+  width: var(--b-grande-size);
+  height: var(--b-grande-size);
+  border: 1px solid var(--preto);
+  border-radius: 50%;
+  z-index: 1000;
+  background-color: var(--branco);
+  backdrop-filter: blur(4px);
+  color: var(--preto);
+  font-size: var(--b-texto);
+  font-weight: 300;
+  line-height: 1;
+  display: flex;            /* flex centering for the inner glyph */
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  transition: background-color 0.25s ease;
+}
+
+/* Hover state inverts the color scheme (light ↔ dark). */
+.about-btn:hover {
+  background-color: var(--preto);
+  border: 1px solid var(--branco);
+  color: var(--branco);
+}
+
+/* ---------- Cosmos grid ----------
+   The main interactive layer. A fixed-count CSS grid
+   (--cols × --rows) stretched over the whole viewport.
+   Column/row counts are declared as custom properties so
+   they can be read/overridden from JS if needed.
+   z-index: 2 keeps it above the noise overlay (z-index: 1). */
+#cosmos {
+  /* Grid dimensions — single source of truth for cols/rows */
+  --cols: 41;
+  --rows: 23;
+
+  min-height: 100vh;
+  width: 100%;
+  background-image: url("../media/fundo.png");
+  background-position: center;    /* Center the image */
+  background-repeat: no-repeat;   /* Do not repeat the image */
+  background-size: cover;         /* Cover the entire container */
+  position: absolute;
+  inset: 0;
+  display: grid;
+  grid-template-columns: repeat(var(--cols), 1fr);
+  grid-template-rows: repeat(var(--rows), 1fr);
+  padding: var(--cosmos-padding);
+  z-index: 2;
+  transition: padding 0.4s ease;  /* smooth reflow on padding changes */
+}
+
+/* ---------- Grid cell ----------
+   Each cell is a flex container that centers its symbol.
+   Default cursor; only non-empty cells become clickable. */
+.cell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: default;
+  /* Debug helper — uncomment to visualise the grid lines:
+     outline: 1px solid rgba(255,255,255,0.05); */
+}
+/* Interactive cells (those with content) get the pointer cursor. */
+.cell:not(.empty) {
+  cursor: pointer;
+}
+/* ---------- Symbol (image inside a cell) ----------
+   Sized via a design token so the whole grid scales together.
+   GPU hints (translate3d + backface-visibility) promote the
+   element to its own compositor layer up front — avoids
+   repaint jank on hover, especially in Safari. */
+.cell .symbol {
+  width: var(--cosmos-symbol);
+  height: var(--cosmos-symbol);
+  object-fit: contain;
+  display: block;
+  cursor: pointer;
+  transition:
+    width 0.5s ease,
+    height 0.5s ease,
+    filter 0.4s ease;
+  will-change: transform, opacity;
+  transform: translate3d(0, 0, 0);    /* promote to GPU layer upfront */
+  backface-visibility: hidden;        /* classic Safari rendering fix */
+}
+/* "Credits" symbols are informational only — not clickable. */
+.cell .symbol[data-type="creditos"] {
+  cursor: default;
+}
+/* Per-asset size tweaks (visual balancing of specific icons). */
+.cell .symbol[src$="video.png"] {
+  width: calc(var(--cosmos-symbol) - 5%);
+  height: calc(var(--cosmos-symbol) - 5%);
+}
+
+.cell .symbol[src$="creditos.png"] {
+  width: calc(var(--cosmos-symbol) + 2%);
+  height: calc(var(--cosmos-symbol) + 2%);
+}
+/* ---------- Hover states (toggled from JS via .hovered) ----------
+   Scale up slightly, lift upward, and add a white glow.
+   !important ensures these win over any inline transforms
+   set programmatically on the element. */
+
+/* Credits icon: larger scale, softer glow. */
+.symbol[src$="creditos.png"].hovered {
+  transform: scale(1.5) translateY(-4px) !important;
+  filter: drop-shadow(0 0 3px white);
+}
+/* Default hover for every other symbol. */
+.symbol.hovered {
+  transform: scale(1.25) translateY(-4px) !important;
+  filter: drop-shadow(0 0 5px white);
+  opacity: 1 !important;
+  transition:
+    transform 0.2s ease,
+    filter 0.2s ease,
+    opacity 0.2s ease;
+}
+
+/* ============================================================
+   TOOLTIP
+   Floating label positioned by JS (follows the cursor).
+   Uses position: fixed + a transform offset so it sits just
+   to the right of, and vertically centered on, the pointer.
+   Starts hidden (opacity: 0) and fades in via .visible.
+   ============================================================ */
+#tooltip {
+  position: fixed;
+  pointer-events: none;               /* never intercept mouse events */
+  background: var(--cor-destaque);
+  color: var(--preto);
+  padding: var(--padding-legendas);
+  font-size: var(--texto-pequeno);
+  border-radius: 4px;
+  font-family: "IBM plex sans", monospace;
+  white-space: nowrap;                /* single-line label */
+  opacity: 0;
+  z-index: 9999;
+  transform: translate(12px, -50%);   /* offset right + vertical center */
+  transition:
+    opacity 0.15s ease,
+    transform 0.25s ease;
+}
+/* Variant: tooltip for "credits" items.
+   Darker background with a hairline border, italic multi-line
+   text, and a max-width so long descriptions wrap instead of
+   stretching across the screen. */
+#tooltip.tooltip--creditos {
+  position: fixed;
+  pointer-events: none;
+  background: var(--preto);
+  border: 0.2px solid grey;
+  color: var(--branco);
+  padding: var(--padding-legendas);
+  font-size: var(--texto-pequeno);
+  font-family: "IBM plex sans", monospace;
+  font-style: italic;
+  white-space: normal;                /* allow wrapping */
+  max-width: var(--largura);
+  opacity: 0;
+  z-index: 9999;
+  transform: translate(12px, -50%);
+  transition:
+    opacity 0.15s ease,
+    transform 0.25s ease;
+}
+/* Shown state — toggled from JS when a symbol is hovered. */
+#tooltip.visible {
+  opacity: 1;
+}
+/* Flipped state — used when the tooltip would overflow the
+   right edge of the viewport. Mirrors the horizontal offset
+   so the tooltip appears to the LEFT of the cursor instead. */
+#tooltip.flip {
+  transform: translate(calc(-100% - 12px), -50%);
+}

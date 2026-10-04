@@ -1,0 +1,138 @@
+/* ============================================================
+   GLOBAL VARIABLES — base (mobile-first)
+   X-Small devices (portrait phones, < 576px).
+   Everything declared here is the default; the breakpoints
+   below only override what needs to change at each size.
+   ============================================================ */
+
+:root {
+/* -------- COLORS --------
+     Minimal palette: near-black, off-white, light gray, and
+     a single accent (lavender) used for highlighted captions
+     and emphasis. Using off-black/off-white instead of pure
+     #000/#fff keeps contrast softer on the eyes. */
+  --preto: #1a1a1a;
+  --branco: #ececec;
+  --cinza: #dbdbdb;
+  --cor-destaque: #caadff;
+
+  /* -------- TEXT SIZES --------
+     --texto-pequeno : captions and tooltips.
+     --texto-grande  : full/open body text.
+     --plus-marker   : size of the "+" marker on galáxia cells,
+                       scaled from --Gcell so it stays
+                       proportional to the grid.
+     --b-texto       : text size inside buttons. */
+  --texto-pequeno: 0.8rem;  /* captions, tooltips */
+  --texto-grande: 1rem; /* open text */
+  --plus-marker: calc(var(--Gcell) / 7);
+  --b-texto: 1.1rem;
+
+/* -------- DIMENSIONS --------
+     --Gcell       : base cell size for the galáxia grid.
+     --SScell      : cell size for the solar system grid,
+                     derived from --Gcell (1.25×) so both
+                     grids scale together.
+     --largura     : max width for overlay media windows
+                     (viewport minus space for buttons/padding).
+     --largura-texto: max width for text overlays — narrower
+                     than media, since long lines hurt reading.
+     --altura      : max height for overlay windows.
+     --b-grande-size / --b-pequeno-size : the two button sizes
+                     used across the UI (big = back/close/next
+                     type actions, small = secondary actions).
+     --cosmos-symbol : size of the big symbol on the cosmos
+                     landing page, as a % of its container.
+     --cosmos-padding: outer padding on the cosmos page.
+     --padding-legendas: padding inside caption pills. */
+  --Gcell: 120px;
+  --SScell: calc(var(--Gcell) * 1.25);
+  --largura: calc(90vw - 100px); /* max width of overlay windows */
+  --largura-texto: calc(90vw - 100px);
+  --altura: calc(90vh - 100px); /* max height of overlay windows */
+  --b-grande-size: 2.8rem;
+  --b-pequeno-size: 2rem;
+  --cosmos-symbol: 100%;
+  --cosmos-padding: 12vh 2vw;
+  --padding-legendas: 2px 8px;
+}
+
+/* ============================================================
+   Small devices — landscape phones, ≥ 576px
+   The viewport is now wide enough that the overlay can use
+   nearly the full height, and the cosmos symbol/padding can
+   switch to a more balanced layout (symbol shrinks, padding
+   becomes symmetric instead of top-heavy).
+   ============================================================ */
+@media (min-width: 576px) {
+  :root {
+    --altura: calc(100vh - 100px);
+    --cosmos-symbol: 80%;
+    --cosmos-padding: 2vw 2vw;
+  }
+}
+
+/* ============================================================
+   Medium devices — tablets, ≥ 768px
+   Big buttons shrink a touch (they looked oversized on
+   tablet). Text overlays start getting a real max-width
+   (60vw) so lines don't become unreadably long. Cosmos
+   symbol continues to scale down as the viewport grows.
+   ============================================================ */
+@media (min-width: 768px) {
+  :root {
+    --b-grande-size: 2.6rem;
+    --largura-texto: calc(60vw - 100px);
+    --cosmos-symbol: 70%;
+  }
+}
+
+/* ============================================================
+   Large devices — desktops, ≥ 992px
+   Grid cell grows (120 → 140px) because there's room for
+   denser layouts. Media overlays cap at ~55vw and text at
+   ~50vw, keeping both comfortably readable. Buttons shrink
+   again (2.6 → 2.2rem) since mouse targets can be smaller
+   than touch targets.
+   ============================================================ */
+@media (min-width: 992px) {
+  :root {
+    --Gcell: 140px;
+    --largura: calc(55vw - 100px);
+    --largura-texto: calc(50vw - 100px);
+    --altura: calc(90vh - 100px);
+    --b-grande-size: 2.2rem;
+    --cosmos-symbol: 55%;
+  }
+}
+
+/* ============================================================
+   X-Large devices — large desktops, ≥ 1200px
+   Only the text overlay width tightens further (to 40vw).
+   On wide screens, long measure is the main readability
+   issue — everything else is already well-sized by 992px.
+   ============================================================ */
+@media (min-width: 1200px) {
+  :root {
+    --largura-texto: calc(40vw - 100px);
+  }
+}
+
+
+/* ============================================================
+   XX-Large devices — very large desktops, ≥ 1920px
+   At this size --Gcell switches from a fixed px value to a
+   viewport-based one (100vw/13) so the galáxia grid keeps
+   roughly the same density on ultra-wide monitors instead
+   of leaving huge empty margins. Overlays also tighten
+   proportionally.
+   ============================================================ */
+@media (min-width: 1920px) {
+  :root {
+    --Gcell: calc(100vw/13);
+    --largura: calc(50vw - 100px);
+    --largura-texto: calc(30vw - 100px);
+    --altura: calc(82vh - 100px);
+    --cosmos-symbol: 50%;
+  }
+}
