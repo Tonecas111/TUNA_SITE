@@ -133,6 +133,6 @@
     --largura: calc(50vw - 100px);
     --largura-texto: calc(30vw - 100px);
     --altura: calc(82vh - 100px);
-    --cosmos-symbol: 50%;
+    --cosmos-symbol: 40%;
   }
 }
