@@ -133,6 +133,16 @@
     --largura: calc(50vw - 100px);
     --largura-texto: calc(30vw - 100px);
     --altura: calc(82vh - 100px);
-    --cosmos-symbol: 35%;
+    --cosmos-symbol: 40%;
+  }
+}
+
+@media (min-width: 2560px) {
+  :root {
+    --Gcell: calc(100vw/13);
+    --largura: calc(50vw - 100px);
+    --largura-texto: calc(30vw - 100px);
+    --altura: calc(82vh - 100px);
+    --cosmos-symbol: 25%;
   }
 }
