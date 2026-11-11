@@ -345,7 +345,7 @@ const cosmosData = [
     col: 13,
     type: "fotografia",
     caption: "Ego 1997",
-    caption2: "Vera Mantero, A Queda de 1 Ego, Lisboa, 1997",
+    caption2: "Vera, A Queda de 1 Ego, Lisboa, 1997",
     media: "media/images/F039_VERA_MANTEROego.webp",
     next: "V037",
   },
