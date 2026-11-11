@@ -115,7 +115,7 @@
 @media (min-width: 1200px) {
   :root {
     --largura-texto: calc(40vw - 100px);
-   --cosmos-symbol: 48%;
+   --cosmos-symbol: 46%;
   }
 }
 
@@ -134,7 +134,7 @@
     --largura: calc(50vw - 100px);
     --largura-texto: calc(30vw - 100px);
     --altura: calc(82vh - 100px);
-    --cosmos-symbol: 38%;
+    --cosmos-symbol: 36%;
   }
 }
 
