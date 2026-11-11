@@ -308,12 +308,18 @@ body::after {
 
 @media (min-width: 1200px) {
   .cell {
-    background: blue;
+    background: rgb(28, 28, 189);
   }
 }
 
 @media (min-width: 1920px) {
   .cell {
-    background: red;
+    background: rgb(230, 18, 18);
+  }
+}
+
+@media (min-width: 2560px) {
+  .cell {
+    background: rgb(0, 248, 0);
   }
 }
