@@ -307,11 +307,13 @@ body::after {
 }
 
 @media (min-width: 1200px) {
-  :root {
+  .cell {
     background: blue;
   }
+}
 
 @media (min-width: 1920px) {
-  :root {
+  .cell {
     background: red;
   }
+}
