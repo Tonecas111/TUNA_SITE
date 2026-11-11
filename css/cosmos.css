@@ -305,3 +305,13 @@ body::after {
 #tooltip.flip {
   transform: translate(calc(-100% - 12px), -50%);
 }
+
+@media (min-width: 1200px) {
+  :root {
+    background: blue;
+  }
+
+@media (min-width: 1920px) {
+  :root {
+    background: red;
+  }
