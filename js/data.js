@@ -523,7 +523,7 @@ const cosmosData = [
     caption: "Torso 2017",
     caption2: "Torso of a Young Woman, Lisboa, 2017",
     media: "media/images/F61_CELINEcostas.webp",
-    next: "F108",
+    next: "F108B",
   },
 
   {
@@ -747,13 +747,13 @@ const cosmosData = [
   },
 
   {
-    id: "F108",
+    id: "F108-B",
     row: 9,
     col: 25,
     type: "fotografia",
     caption: "Júlia 2022",
-    caption2: "Júlia, Persona, Lisboa, 2022",
-    media: "media/images/F108_PERSONA_02.webp",
+    caption2: "Júlia 2022",
+    media: "media/images/F108B_personaJULIA.webp",
     next: "F126",
   },
 
