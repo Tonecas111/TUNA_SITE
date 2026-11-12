@@ -490,7 +490,7 @@ const cosmosData = [
     caption: "Zoo 2013",
     caption2: "Zoo, Victor Hugo Pontes, Porto, 2013",
     media: "media/images/F056_ZOO.webp",
-    next: "F232",
+    next: "F232-2",
   },
 
   {
@@ -582,13 +582,13 @@ const cosmosData = [
   },
 
   {
-    id: "F069",
+    id: "F069B",
     row: 1,
     col: 36,
     type: "fotografia",
-    caption: "Happy 2017",
-    caption2: "Happy Tongue, Lisboa, 2017",
-    media: "media/images/F069_CELIENlingua_01.webp",
+    caption: "T 2017",
+    caption2: "T 2017",
+    media: "media/images/F069B_celineLINGUA.webp",
     next: "F159",
   },
 
@@ -780,14 +780,14 @@ const cosmosData = [
   },
 
   {
-    id: "F111",
+    id: "F111-2",
     row: 6,
     col: 3,
     type: "fotografia",
-    caption: "Tatiana 2022",
-    caption2: "Tatiana, Persona, Lisboa, 2022",
-    media: "media/images/F111_PERSONA_05.webp",
-    next: "F176",
+    caption: "IR 2018",
+    caption2: "Celine IR 2018",
+    media: "media/images/F111-2_IRceline.webp",
+    next: "F176-2",
   },
 
   {
@@ -802,13 +802,13 @@ const cosmosData = [
   },
 
   {
-    id: "F117",
+    id: "F117-2",
     row: 23,
     col: 40,
     type: "fotografia",
-    caption: "Sérgio 2025",
-    caption2: "Sérgio Sá, Porto, 2025",
-    media: "media/images/F117_CADERNO_P_03.webp",
+    caption: "Paulo 2024",
+    caption2: "Paulo 2024",
+    media: "media/images/F117-2_cpPAULO.webp",
     next: "F050",
   },
 
@@ -890,14 +890,14 @@ const cosmosData = [
   },
 
   {
-    id: "F147",
+    id: "F147-2",
     row: 12,
     col: 40,
     type: "fotografia",
-    caption: "Ray 2013",
-    caption2: "Ray, João Cardoso, Porto, 2013",
-    media: "media/images/F147_ML_BW_04.webp",
-    next: "F111",
+    caption: "C 2018",
+    caption2: "C 2018",
+    media: "media/images/F147-2_costasMASSA.webp",
+    next: "F111-2",
   },
 
   {
@@ -923,13 +923,13 @@ const cosmosData = [
   },
 
   {
-    id: "F153",
+    id: "F153-2",
     row: 13,
     col: 35,
     type: "fotografia",
-    caption: "Ana Sofia 1998",
-    caption2: "Vera Mantero's Poesia & Selvajaria, Ana Sofia, 1998",
-    media: "media/images/F153_POESIAeSELVAJARIA.webp",
+    caption: "#3 2018",
+    caption2: "Paula & #3 2018",
+    media: "media/images/F153-2_paulaBONElivro.webp",
     next: "F249",
   },
 
@@ -1040,7 +1040,7 @@ const cosmosData = [
     caption: "Carla 2015",
     caption2: "Carla Ribeiro, Porto, 2015",
     media: "media/images/F169_SOMBRAS.webp",
-    next: "F153",
+    next: "F153-2",
   },
 
   {
@@ -1067,14 +1067,14 @@ const cosmosData = [
   },
 
   {
-    id: "F176",
+    id: "F176-2",
     row: 22,
     col: 24,
     type: "fotografia",
-    caption: "Wall",
+    caption: "Petra 2001",
     caption2:
-      "João Mota's A Senhora Klein, Cucha Carvalheiro, Elsa Galvão and Natália Luiza, 1994",
-    media: "media/images/F176_onWALL.webp",
+      "Ana & 2001",
+    media: "media/images/F176-2_cartazCALLE.webp",
     next: "F056",
   },
 
@@ -1185,7 +1185,7 @@ const cosmosData = [
     caption: "Celine 2017",
     caption2: "Celine Noon, Lisboa, 2017",
     media: "media/images/F223_CELINE_cabecaPLASTICO_02.webp",
-    next: "F117",
+    next: "F117-2",
   },
 
   {
@@ -1211,13 +1211,13 @@ const cosmosData = [
   },
 
   {
-    id: "F232",
+    id: "F232-2",
     row: 17,
     col: 22,
     type: "fotografia",
-    caption: "ML 2013",
-    caption2: "ML, Dias Felizes, TNSJ, 2013",
-    media: "media/images/F232_ML_IR_02.webp",
+    caption: "C 2019",
+    caption2: "C 2019",
+    media: "media/images/F232-2_cuecaVERDE.webp",
     next: "T036",
   },
 
@@ -1227,9 +1227,9 @@ const cosmosData = [
     col: 27,
     type: "fotografia",
     caption: "Joana 2016",
-    caption2: "Joana Africano, Porto, 2016",
+    caption2: "Joana 2016",
     media: "media/images/F240_HUMANIDADEjoana_01.webp",
-    next: "F245",
+    next: "F245-2",
   },
 
   {
@@ -1238,7 +1238,7 @@ const cosmosData = [
     col: 1,
     type: "fotografia",
     caption: "João 2016",
-    caption2: "João Cardoso, Porto, 2016",
+    caption2: "João 2016",
     media: "media/images/F241_HUMANIDADEjoao_01.webp",
     next: "T042",
   },
@@ -1249,20 +1249,20 @@ const cosmosData = [
     col: 41,
     type: "fotografia",
     caption: "Sara 2016",
-    caption2: "Sara Barros Leitão, Porto, 2016",
+    caption2: "Sara 2016",
     media: "media/images/F243_HUMANIDADEsara_01.webp",
     next: "F306",
   },
 
   {
-    id: "F245",
+    id: "F245-2",
     row: 23,
     col: 35,
     type: "fotografia",
-    caption: "António 2016",
-    caption2: "António Durães, Porto, 2016",
-    media: "media/images/F245_HUMANIDADEduraes_01.webp",
-    next: "F147",
+    caption: "Sílvia 2020",
+    caption2: "Sílvia 2020",
+    media: "media/images/F245-2_tirarSILVIA.webp",
+    next: "F147-2",
   },
 
   {
@@ -1271,7 +1271,7 @@ const cosmosData = [
     col: 21,
     type: "fotografia",
     caption: "Marcello 2016",
-    caption2: "Marcello Urgeghe, Porto, 2016",
+    caption2: "Marcello 2016",
     media: "media/images/F249_HUMANIDADEbaixoMARCELO_01.webp",
     next: "F283",
   },
@@ -1282,7 +1282,7 @@ const cosmosData = [
     col: 3,
     type: "fotografia",
     caption: "Ana 2010",
-    caption2: "Ana, Do Tirar Pelo natural, 2020",
+    caption2: "Ana 2020",
     media: "media/images/F264_doTIRAR_ana_01.webp",
     next: "T033",
   },
@@ -1293,7 +1293,7 @@ const cosmosData = [
     col: 8,
     type: "fotografia",
     caption: "José 2010",
-    caption2: "José, Do Tirar Pelo natural, 2020",
+    caption2: "José2020",
     media: "media/images/F266_doTIRAR_jose_01.webp",
     next: "F067",
   },
@@ -1304,7 +1304,7 @@ const cosmosData = [
     col: 12,
     type: "fotografia",
     caption: "Carlos 2010",
-    caption2: "Carlos, Do Tirar Pelo natural, 2020",
+    caption2: "Carlos 2020",
     media: "media/images/F267_doTIRAR_carlos_01.webp",
     next: "T043",
   },
@@ -1315,7 +1315,7 @@ const cosmosData = [
     col: 31,
     type: "fotografia",
     caption: "Susana 2010",
-    caption2: "Susana, Do Tirar Pelo natural, 2020",
+    caption2: "Susana 2020",
     media: "media/images/F271_doTIRAR_susana_01.webp",
     next: "F305",
   },
@@ -1325,8 +1325,8 @@ const cosmosData = [
     row: 8,
     col: 7,
     type: "fotografia",
-    caption: "Eyes 2016",
-    caption2: "TNDM II Workers' Eyes, Lisboa, 2016",
+    caption: "E 2016",
+    caption2: "Eye 2016",
     media: "media/images/F280_Ssolar-16.webp",
     next: "F022",
   },
@@ -1337,9 +1337,9 @@ const cosmosData = [
     col: 24,
     type: "fotografia",
     caption: "Faces 2016",
-    caption2: "TNDM II Workers' Faces, Lisboa, 2016",
+    caption2: "TNDM II Workers' Faces 2016",
     media: "media/images/F283_Ssolar-2.webp",
-    next: "F069",
+    next: "F069B",
   },
 
   // ===== VIDEO =====
