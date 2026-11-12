@@ -399,10 +399,10 @@ const cosmosData = [
     row: 4,
     col: 31,
     type: "fotografia",
-    caption: "Silver 2016",
-    caption2: "White Horse, Oeiras, 2016",
+    caption: "H 2016",
+    caption2: "H 2016",
     media: "media/images/F045_CAVALO.webp",
-    next: "F073",
+    next: "F073-2",
   },
 
   {
@@ -626,13 +626,13 @@ const cosmosData = [
   },
 
   {
-    id: "F073",
+    id: "F073-2",
     row: 8,
     col: 5,
     type: "fotografia",
-    caption: "CELINE, LISBOA, 2017",
-    caption2: "CELINE, LISBOA, 2017",
-    media: "media/images/F073_CELINEcueca_01.webp",
+    caption: "C 2018",
+    caption2: "C 2018",
+    media: "media/images/F073-2celineVERDE.webp",
     next: "F267",
   },
 
@@ -934,13 +934,13 @@ const cosmosData = [
   },
 
   {
-    id: "F155",
+    id: "F155-2",
     row: 5,
     col: 10,
     type: "fotografia",
     caption: "Bruce 1997",
-    caption2: "Nuno Carinhas' Marie & Bruce, 1997",
-    media: "media/images/F155_MARIE&BRUCE.webp",
+    caption2: "Sandra & Luísa 1997",
+    media: "media/images/F155-2_bruceMARIE.webp",
     next: "V023",
   },
 
@@ -2152,7 +2152,7 @@ const cosmosData = [
     caption2:
       "Fixar o Que Não Pode Ser Fixado, Teatro do Vestido – um dicionário, TNDM II – Bicho do Mato, 2018",
     text: "A obra de arte é independente do leitor, do seu modelo, do seu autor. Estes experimentam-na, de modo diverso, por via de um conjunto de sensações vitais que os aproxima do conhecimento sensível. Percepto e afecto sobrevivem, explodem na inverosimilhança geométrica, na imperfeição física, na anomalia orgânica.",
-    next: "F155",
+    next: "F155-2",
   },
 
   {
