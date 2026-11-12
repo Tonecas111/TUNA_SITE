@@ -35,13 +35,13 @@ const cosmosData = [
     next: "F014",
   },
   {
-    id: "F010",
+    id: "F010-2",
     row: 6,
     col: 2,
     type: "fotografia",
-    caption: "Lhioubímov 1991",
-    caption2: "Iúri Lhioubímov's Boris Godunov, 1991",
-    media: "media/images/F010_IOURI_LIOUBIMOV.webp",
+    caption: "Sara 2008",
+    caption2: "Sara 2008",
+    media: "media/images/F010-2_saraC.webp",
     next: "T026",
   },
 
