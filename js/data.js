@@ -25,13 +25,13 @@
 const cosmosData = [
   // ===== fotografia =====
   {
-    id: "F300",
+    id: "F300-2",
     row: 8,
     col: 26,
     type: "fotografia",
-    caption: "Wata 2021",
-    caption2: "Mami Wata I, Lisboa, 2021",
-    media: "media/images/F300_S_Lola.webp",
+    caption: "YP 2021",
+    caption2: "YP 2021",
+    media: "media/images/F300-2_cuecaLOLA.webp",
     next: "F014",
   },
   {
@@ -73,7 +73,7 @@ const cosmosData = [
     caption: "Bergman 1991",
     caption2: "Ingmar Bergman's Madame de Sade, 1991",
     media: "media/images/F014_INGMAR_BERGMAN.webp",
-    next: "F059",
+    next: "F059-2",
   },
 
   {
@@ -106,7 +106,7 @@ const cosmosData = [
     caption: "Wooster Group 1992",
     caption2: "The Wooster Group's Brace Up! 1992",
     media: "media/images/F017_WOOSTER_GROUP.webp",
-    next: "F040",
+    next: "F040-2",
   },
 
   {
@@ -183,7 +183,7 @@ const cosmosData = [
     caption: "Bates 1992",
     caption2: "Alan Bates, Lisboa, 1992",
     media: "media/images/F024_ALAN_BATES.webp",
-    next: "F035",
+    next: "F035-2",
   },
 
   {
@@ -248,7 +248,7 @@ const cosmosData = [
     caption: "Alfredo 1996",
     caption2: "Alfredo Brissos, Lisboa, 1996",
     media: "media/images/F030_ALFREDO.webp",
-    next: "F036",
+    next: "F036B",
   },
 
   {
@@ -296,24 +296,24 @@ const cosmosData = [
   },
 
   {
-    id: "F035",
+    id: "F035-2",
     row: 10,
     col: 13,
     type: "fotografia",
-    caption: "Boys 2009",
-    caption2: "Boys, Porto, 2009",
-    media: "media/images/F035_COLORs.webp",
-    next: "F300",
+    caption: "#3 2019",
+    caption2: "#3 2019",
+    media: "media/images/F035-2_bonevileLIVRO.webp",
+    next: "F300-2",
   },
 
   {
-    id: "F036",
+    id: "F036B",
     row: 19,
     col: 10,
     type: "fotografia",
     caption: "Rebekka 2017",
     caption2: "Rebekka 2017",
-    media: "media/images/F036_REBEKA.webp",
+    media: "media/images/F036B_rebeka.webp",
     next: "T014",
   },
 
@@ -351,13 +351,13 @@ const cosmosData = [
   },
 
   {
-    id: "F040",
+    id: "F040-2",
     row: 18,
     col: 28,
     type: "fotografia",
-    caption: "Ruby Slippers 2016",
-    caption2: "Ruby Slippers, Mónica Calle, 2016, Lisboa, 2016",
-    media: "media/images/F040_PEquartoEscuro.webp",
+    caption: "IR 2018",
+    caption2: "Celine IR 2018",
+    media: "media/images/F040-2_celineIRdeitada.webp",
     next: "V013",
   },
 
@@ -472,13 +472,13 @@ const cosmosData = [
   },
 
   {
-    id: "F055",
+    id: "F055-2",
     row: 15,
     col: 3,
     type: "fotografia",
-    caption: "Emília 2008",
-    caption2: "Emília Silvestre, Porto, 2014",
-    media: "media/images/F055_PROJECCAOemilia.webp",
+    caption: "#10 2019",
+    caption2: "#10 2019",
+    media: "media/images/F055-2_todosLIVRO.webp",
     next: "T041",
   },
 
@@ -494,13 +494,13 @@ const cosmosData = [
   },
 
   {
-    id: "F059",
+    id: "F059-2",
     row: 16,
     col: 22,
     type: "fotografia",
-    caption: "Bela 2016",
-    caption2: "Bela, In The Sky, Lisboa, 2016",
-    media: "media/images/F059_INtheSKY.webp",
+    caption: "Book 2017",
+    caption2: "Celine's book 2017",
+    media: "media/images/F059-2_celineCADER.webp",
     next: "F028",
   },
 
@@ -556,7 +556,7 @@ const cosmosData = [
     caption: "Celine 2018",
     caption2: "Celine Noon, Lisboa, 2018",
     media: "media/images/F66_CELINEagua_03.webp",
-    next: "F110",
+    next: "F110B",
   },
 
   {
@@ -637,13 +637,13 @@ const cosmosData = [
   },
 
   {
-    id: "F074",
+    id: "F074-2",
     row: 5,
     col: 17,
     type: "fotografia",
-    caption: "RTP 2025",
-    caption2: "Celine Noon for RTP, 2025",
-    media: "media/images/F074_CELINE_RTP.webp",
+    caption: "#3 2018",
+    caption2: "Celine & Paula #3 2018",
+    media: "media/images/F074-2_celinePAULAlivro.webp",
     next: "F046",
   },
 
@@ -681,24 +681,24 @@ const cosmosData = [
   },
 
   {
-    id: "F090",
+    id: "F090-2",
     row: 12,
     col: 16,
     type: "fotografia",
-    caption: "Awa 2020",
-    caption2: "Awa, Todos St Engrácia, 2020",
-    media: "media/images/F090_TODOS_mAGUA_03.webp",
-    next: "F091",
+    caption: "Branca 2020",
+    caption2: "Branca 2020",
+    media: "media/images/F090-2_tirarBRANCA.webp",
+    next: "F091-2",
   },
 
   {
-    id: "F091",
+    id: "F091-2",
     row: 3,
     col: 17,
     type: "fotografia",
-    caption: "Chai 2020",
-    caption2: "Chai, Todos St Engrácia, 2020",
-    media: "media/images/F091_TODOS_mAGUA_04.webp",
+    caption: "Daniel 2020",
+    caption2: "Daniel2020",
+    media: "media/images/F091-2_tirarDANIEL.webp",
     next: "V041",
   },
 
@@ -758,24 +758,24 @@ const cosmosData = [
   },
 
   {
-    id: "F109",
+    id: "F109-2",
     row: 23,
     col: 3,
     type: "fotografia",
-    caption: "Rafael 2022",
-    caption2: "Rafael, Persona, Lisboa, 2022",
-    media: "media/images/F109_PERSONA_03b.webp",
+    caption: "Book 2018",
+    caption2: "Celine's book 2018",
+    media: "media/images/F109-2_celineCADERNO.webp",
     next: "F090",
   },
 
   {
-    id: "F110",
+    id: "F110B",
     row: 4,
     col: 41,
     type: "fotografia",
     caption: "Paula 2022",
-    caption2: "Paula, Persona, Lisboa, 2022",
-    media: "media/images/F110_PERSONA_04.webp",
+    caption2: "Paula 2022",
+    media: "media/images/F110B_personaPAULA.webp",
     next: "F068",
   },
 
@@ -1472,7 +1472,7 @@ const cosmosData = [
     media: "media/video/V010_PRIMAVERA_01.webm",
     poster: "media/posters/V010_PRIMAVERA_01.jpg",
     thumbTime: 12,
-    next: "F074",
+    next: "F074-2",
   },
 
   {
@@ -2198,7 +2198,7 @@ const cosmosData = [
     caption: "Persona",
     caption2: "Persona, folha de sala, Lisboa, 2022",
     text: "Persona é este grupo de pessoas com origens diversas que, ainda assim, partilha o que nos une: a humanidade. Como se todos pudéssemos ser qualquer um. Como se cada um de nós fosse todos por um momento. Como se, de uma vez por todas, a palavra futuro deixasse de ser uma grilheta.",
-    next: "F109",
+    next: "F109-2",
   },
 
   {
