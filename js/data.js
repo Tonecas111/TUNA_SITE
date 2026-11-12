@@ -194,7 +194,7 @@ const cosmosData = [
     caption: "Trintignant 1995",
     caption2: "Marie Trintignant, Lisboa, 1995",
     media: "media/images/F025_MARIE_TRINTIGNANT.webp",
-    next: "F048",
+    next: "F048-2",
   },
 
   {
@@ -417,14 +417,14 @@ const cosmosData = [
   },
 
   {
-    id: "F048",
+    id: "F048-2",
     row: 22,
     col: 37,
     type: "fotografia",
-    caption: "Ela 2019",
-    caption2: "Ela Polkowska, Kaunas, 2019",
-    media: "media/images/F048_GIRLprocurate.webp",
-    next: "F089",
+    caption: "IR 2017",
+    caption2: "Celine 2017",
+    media: "media/images/F048-2_celineIR.webp",
+    next: "F089-2",
   },
 
   {
@@ -516,13 +516,13 @@ const cosmosData = [
   },
 
   {
-    id: "F061",
+    id: "F061B",
     row: 17,
     col: 30,
     type: "fotografia",
-    caption: "Torso 2017",
-    caption2: "Torso of a Young Woman, Lisboa, 2017",
-    media: "media/images/F61_CELINEcostas.webp",
+    caption: "C 2017",
+    caption2: "C 2017",
+    media: "media/images/F061B_celineCOSTAS.webp",
     next: "F108B",
   },
 
@@ -604,13 +604,13 @@ const cosmosData = [
   },
 
   {
-    id: "F071",
+    id: "F071-2",
     row: 14,
     col: 39,
     type: "fotografia",
-    caption: "Celine 2017",
-    caption2: "Celine Noon, Lisboa, 2017",
-    media: "media/images/F071_CELINElama_02.webp",
+    caption: "Paulo 2010",
+    caption2: "Paulo 2010",
+    media: "media/images/F071-2_pauloSOMB.webp",
     next: "T038",
   },
 
@@ -670,14 +670,14 @@ const cosmosData = [
   },
 
   {
-    id: "F089",
+    id: "F089-2",
     row: 23,
     col: 12,
     type: "fotografia",
-    caption: "Pape 2020",
-    caption2: "Pape, Todos St Engrácia, 2020",
-    media: "media/images/F089_TODOS_mAGUA_02.webp",
-    next: "F071",
+    caption: "Helder 2017",
+    caption2: "Helder 2017",
+    media: "media/images/F089-2_todoMUNDhelder.webp",
+    next: "F071-2",
   },
 
   {
@@ -1683,7 +1683,7 @@ const cosmosData = [
     media: "media/video/V030_ESTACAOluis_01.webm",
     poster: "media/posters/V030_ESTACAOluis_01.jpg",
     thumbTime: 29,
-    next: "F061",
+    next: "F061B",
   },
 
   {
