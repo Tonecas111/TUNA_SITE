@@ -593,13 +593,13 @@ const cosmosData = [
   },
 
   {
-    id: "F070",
+    id: "F070-2",
     row: 17,
     col: 35,
     type: "fotografia",
     caption: "Celine 2017",
-    caption2: "Celine Noon, Lisboa, 2017",
-    media: "media/images/F070_CELINElama_01.webp",
+    caption2: "Celine 2017",
+    media: "media/images/F070-2_celineTORSO.webp",
     next: "F016",
   },
 
@@ -653,9 +653,9 @@ const cosmosData = [
     col: 26,
     type: "fotografia",
     caption: "Lourdes 2021",
-    caption2: "Lourdes, Todos Ameixoeira, 2021",
+    caption2: "Lourdes 2021",
     media: "media/images/F083_TODOS_AMEIXOEIRA_02.webp",
-    next: "F228",
+    next: "F228-2",
   },
 
   {
@@ -912,14 +912,14 @@ const cosmosData = [
   },
 
   {
-    id: "F152",
+    id: "F152-2",
     row: 4,
     col: 11,
     type: "fotografia",
-    caption: "David 2016",
-    caption2: "David, João Lourenço, Porto, 2016",
-    media: "media/images/F152_ML_BW_05.webp",
-    next: "F070",
+    caption: "Jorge 2001",
+    caption2: "Jorge 2001",
+    media: "media/images/F152-2_2001JORGE.webp",
+    next: "F070-2",
   },
 
   {
@@ -1200,13 +1200,13 @@ const cosmosData = [
   },
 
   {
-    id: "F228",
+    id: "F228-2",
     row: 1,
     col: 12,
     type: "fotografia",
-    caption: "Celine 2017",
-    caption2: "Celine Noon, Lisboa, 2017",
-    media: "media/images/F228_CELINEvogue_01.webp",
+    caption: "Amadeo 1993",
+    caption2: "Amadeo 1993",
+    media: "media/images/F228-2_amadeoIR.webp",
     next: "T045",
   },
 
@@ -1977,7 +1977,7 @@ const cosmosData = [
     caption2:
       "Efeminização em António e Cleópatra de William Shakespeare, FLUP, 2004",
     text: "(...) o monstruoso como o que não tem uma natureza essencial, porque não tem um género essencial, por fim podemos ver que a diferença entre os dois termos opostos monstruoso e sem uma natureza essencial esvazia-se perante a ideia de androginia. Para os defensores deste modelo, o actor hermafrodita, o rapaz com propriedades de ambos os sexos, transforma-se na personificação de tudo o que é assustador no eu.",
-    next: "F152",
+    next: "F152-2",
   },
 
   {
