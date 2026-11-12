@@ -285,13 +285,13 @@ const cosmosData = [
   },
 
   {
-    id: "F034",
+    id: "F034-2",
     row: 18,
     col: 34,
     type: "fotografia",
-    caption: "Sandra 1998",
-    caption2: "Sandra Faleiro, Lisboa, 1998",
-    media: "media/images/F034_SANDRA_FALEIRO.webp",
+    caption: "#10 2019",
+    caption2: "Rebekka #10 2019",
+    media: "media/images/F034-2_rebekaLIVRO.webp",
     next: "T028",
   },
 
