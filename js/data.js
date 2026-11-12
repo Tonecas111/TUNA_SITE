@@ -279,9 +279,9 @@ const cosmosData = [
     col: 15,
     type: "fotografia",
     caption: "Hanna 1992",
-    caption2: "Hanna Shygulla, Sintra, 1992",
+    caption2: "Hanna 1992",
     media: "media/images/F033_HANNA_SHYGULLA.webp",
-    next: "F055",
+    next: "F055-2",
   },
 
   {
@@ -477,7 +477,7 @@ const cosmosData = [
     col: 3,
     type: "fotografia",
     caption: "#10 2019",
-    caption2: "#10 2019",
+    caption2: "Pape & Awa #10 2019",
     media: "media/images/F055-2_todosLIVRO.webp",
     next: "T041",
   },
