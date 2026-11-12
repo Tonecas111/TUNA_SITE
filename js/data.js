@@ -128,7 +128,7 @@ const cosmosData = [
     caption: "Nekrosius 2003",
     caption2: "Eimuntas Nekrosius's Otelas, 2003",
     media: "media/images/F019_NEKROSIUS.webp",
-    next: "F010",
+    next: "F010-2",
   },
   {
     id: "F020",
