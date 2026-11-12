@@ -205,7 +205,7 @@ const cosmosData = [
     caption: "Maria 1994",
     caption2: "Maria de Medeiros, Lisboa, 1994",
     media: "media/images/F026_MARIAdeMEDEIROS.webp",
-    next: "F209",
+    next: "F209-2",
   },
 
   {
@@ -527,13 +527,13 @@ const cosmosData = [
   },
 
   {
-    id: "F062",
+    id: "F062-2",
     row: 13,
     col: 16,
     type: "fotografia",
-    caption: "Celine 2017",
-    caption2: "Celine Noon, Lisboa, 2017",
-    media: "media/images/F62_CELINEestrado.webp",
+    caption: "#k 2017",
+    caption2: "Celine #K 2017",
+    media: "media/images/F062-2_celineLIVRO.webp",
     next: "V007",
   },
 
@@ -1090,13 +1090,13 @@ const cosmosData = [
   },
 
   {
-    id: "F207",
+    id: "F207-2",
     row: 17,
     col: 38,
     type: "fotografia",
-    caption: "Elixir 2018",
-    caption2: "Elixir, Lisboa, 2018",
-    media: "media/images/F207_CELINE_cCUSPO_01.webp",
+    caption: "IR 2018",
+    caption2: "Celine IR 2018",
+    media: "media/images/F207-2_IRceline.webp",
     next: "V003",
   },
 
@@ -1112,35 +1112,35 @@ const cosmosData = [
   },
 
   {
-    id: "F209",
+    id: "F209-2",
     row: 10,
     col: 32,
     type: "fotografia",
-    caption: "Wild 2015",
-    caption2: "Wild Bud, Lisboa, 2015",
-    media: "media/images/F209_IRjarro_01.webp",
+    caption: "IR 2015",
+    caption2: "IR 2015",
+    media: "media/images/F209-2_IRpote.webp",
     next: "F164",
   },
 
   {
-    id: "F214",
+    id: "F214-2",
     row: 7,
     col: 23,
     type: "fotografia",
-    caption: "Celine 2018",
-    caption2: "Celine Noon, Lisboa, 2018",
-    media: "media/images/F214_CELINE_aguaPRETA_01.webp",
+    caption: "R 2018",
+    caption2: "R 2018",
+    media: "media/images/F214-2_gritoRED.webp",
     next: "F054",
   },
 
   {
-    id: "F306",
+    id: "F306B",
     row: 23,
     col: 33,
     type: "fotografia",
-    caption: "Leonor 2020",
-    caption2: "Leonor Cabral, Lisboa, 2020",
-    media: "media/images/F306_carvaoLola.webp",
+    caption: "B 2016",
+    caption2: "B 2016",
+    media: "media/images/F306B_COSTAScalle.webp",
     next: "T035",
   },
 
@@ -1189,13 +1189,13 @@ const cosmosData = [
   },
 
   {
-    id: "F226",
+    id: "F226-2",
     row: 2,
     col: 39,
     type: "fotografia",
-    caption: "Celine 2017",
-    caption2: "Celine Noon, Lisboa, 2017",
-    media: "media/images/F226_CELINEestrado_01.webp",
+    caption: "Diana 2022",
+    caption2: "Diana 2022",
+    media: "media/images/F226-2_dianaPALA.webp",
     next: "F243",
   },
 
@@ -1251,7 +1251,7 @@ const cosmosData = [
     caption: "Sara 2016",
     caption2: "Sara 2016",
     media: "media/images/F243_HUMANIDADEsara_01.webp",
-    next: "F306",
+    next: "F306B",
   },
 
   {
@@ -1380,7 +1380,7 @@ const cosmosData = [
     media: "media/video/V004_EGO_01.webm",
     poster: "media/posters/V004_EGO_01.jpg",
     thumbTime: 4,
-    next: "F226",
+    next: "F226-2",
   },
 
   {
@@ -1578,7 +1578,7 @@ const cosmosData = [
     media: "media/video/V020_PORTO2001_01.webm",
     poster: "media/posters/V020_PORTO2001_01.jpg",
     thumbTime: 55,
-    next: "F214",
+    next: "F214-2",
   },
 
   {
@@ -1965,7 +1965,7 @@ const cosmosData = [
     caption2:
       "Efeminização em António e Cleópatra de William Shakespeare, FLUP, 2004",
     text: "Um herói a quem a amante alcooliza e veste com as suas roupas (...) de mulher. Um herói travestido de mulher assim como os rapazes actores. Um rapaz vestido de mulher que veste, também de mulher, um homem. Que veste o homem.",
-    next: "F062",
+    next: "F062-2",
   },
 
   {
