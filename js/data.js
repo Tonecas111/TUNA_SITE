@@ -435,7 +435,7 @@ const cosmosData = [
     caption: "Diana 2017",
     caption2: "Diana Sá, Lisboa, 2017",
     media: "media/images/F050_DIANA_SA.webp",
-    next: "F031",
+    next: "F031B",
   },
 
   {
