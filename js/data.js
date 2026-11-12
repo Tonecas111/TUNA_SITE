@@ -263,13 +263,13 @@ const cosmosData = [
   },
 
   {
-    id: "F032",
+    id: "F032-2",
     row: 21,
     col: 10,
     type: "fotografia",
-    caption: "Ana 2013",
-    caption2: "Ana Bustorff, Lisboa, 2013",
-    media: "media/images/F032_ANA_BUSTORFF.webp",
+    caption: "Anónio 2021",
+    caption2: "António 2021",
+    media: "media/images/F032-2_todosANTONIO.webp",
     next: "F271",
   },
 
