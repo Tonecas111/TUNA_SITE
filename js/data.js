@@ -1565,7 +1565,7 @@ const cosmosData = [
     media: "media/video/V018_LABORrosinda_01.webm",
     poster: "media/posters/V018_LABORrosinda_01.jpg",
     thumbTime: 2,
-    next: "F034",
+    next: "F034-2",
   },
 
   {
