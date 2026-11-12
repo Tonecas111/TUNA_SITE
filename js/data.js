@@ -161,7 +161,7 @@ const cosmosData = [
     caption: "Maria 1987",
     caption2: "Maria, Lisboa, 1987",
     media: "media/images/F022_MARIA.webp",
-    next: "F039",
+    next: "F039B",
   },
 
   {
@@ -311,20 +311,20 @@ const cosmosData = [
     row: 19,
     col: 10,
     type: "fotografia",
-    caption: "Rebeka 2017",
-    caption2: "Rebeka Friedli, Lisboa, 2017",
+    caption: "Rebekka 2017",
+    caption2: "Rebekka 2017",
     media: "media/images/F036_REBEKA.webp",
     next: "T014",
   },
 
   {
-    id: "F037",
+    id: "F037-2",
     row: 6,
     col: 20,
     type: "fotografia",
-    caption: "Boneville 2017",
-    caption2: "Miguel Boneville, Lisboa, 2017",
-    media: "media/images/F037_MIGUEL_BONEVILLE.webp",
+    caption: "#3 2018",
+    caption2: "Miguel #3 2018",
+    media: "media/images/F037-2_boneCELINElivro.webp",
     next: "F097",
   },
 
@@ -334,19 +334,19 @@ const cosmosData = [
     col: 24,
     type: "fotografia",
     caption: "Paula 2017",
-    caption2: "Paula Diogo, Lisboa, 2017",
+    caption2: "Paula 2017",
     media: "media/images/F038_PAULA_DIOGO.webp",
     next: "F221",
   },
 
   {
-    id: "F039",
+    id: "F039B",
     row: 18,
     col: 13,
     type: "fotografia",
     caption: "Ego 1997",
-    caption2: "Vera, A Queda de 1 Ego, Lisboa, 1997",
-    media: "media/images/F039_VERA_MANTEROego.webp",
+    caption2: "Vera A Queda de 1 Ego 1997",
+    media: "media/images/F039B_veraEGO.webp",
     next: "V037",
   },
 
@@ -853,7 +853,7 @@ const cosmosData = [
     caption: "Luís 2020",
     caption2: "Luís, Do Tirar Pelo natural, Lisboa, 2020",
     media: "media/images/F128_DO_TIRAR.webp",
-    next: "F037",
+    next: "F037-2",
   },
 
   {
@@ -963,7 +963,7 @@ const cosmosData = [
     caption: "Mónica 1993",
     caption2: "Mónica Calle, Lisboa, 1993",
     media: "media/images/F158_JOGOSdeNOITE.webp",
-    next: "F160",
+    next: "F160-2",
   },
 
   {
@@ -978,13 +978,13 @@ const cosmosData = [
   },
 
   {
-    id: "F160",
+    id: "F160-2",
     row: 13,
     col: 22,
     type: "fotografia",
     caption: "Meia Noite 2000",
-    caption2: "Mónica Calle's Bar da Meia Noite, 2000",
-    media: "media/images/F160_BARdaMEIA_NOITE.webp",
+    caption2: "Mónica 2000",
+    media: "media/images/F160-2_monicaMN.webp",
     next: "V043",
   },
 
