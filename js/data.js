@@ -1669,7 +1669,7 @@ const cosmosData = [
     media: "media/video/V027_RAVEbonecas_01.webm",
     poster: "media/posters/V027_RAVEbonecas_01.jpg",
     thumbTime: 19,
-    next: "F032",
+    next: "F032-2",
   },
 
   {
