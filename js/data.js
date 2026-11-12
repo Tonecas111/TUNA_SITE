@@ -252,13 +252,13 @@ const cosmosData = [
   },
 
   {
-    id: "F031",
+    id: "F031B",
     row: 16,
     col: 34,
     type: "fotografia",
     caption: "Pedro 2010",
-    caption2: "Pedro Almendra, Porto, 2010",
-    media: "media/images/F031_PEDRO_ALMENDRAsombras.webp",
+    caption2: "Pedro 2010",
+    media: "media/images/F031B_pedroALM.webp",
     next: "T017",
   },
 
