@@ -362,13 +362,13 @@ const cosmosData = [
   },
 
   {
-    id: "F305",
+    id: "F305-2",
     row: 20,
     col: 15,
     type: "fotografia",
-    caption: "Ophelia 2021",
-    caption2: "Ophelia I, Leonor Cabral, Lisboa, 2021",
-    media: "media/images/F305_Agualola.webp",
+    caption: "Leonor 2021",
+    caption2: "Leonor 2021",
+    media: "media/images/F305-2_lolaBANHO.webp",
     next: "V008",
   },
 
@@ -380,7 +380,7 @@ const cosmosData = [
     caption: "Odalisque 2022",
     caption2: "Odalisque, Lisboa, 2022",
     media: "media/images/F043_LEONORcostas.webp",
-    next: "F222",
+    next: "F222-2",
   },
 
   {
@@ -664,9 +664,9 @@ const cosmosData = [
     col: 6,
     type: "fotografia",
     caption: "António 2021",
-    caption2: "António, Todos Ameixoeira, 2021",
+    caption2: "António 2021",
     media: "media/images/F084_TODOS_AMEIXOEIRA_03.webp",
-    next: "F116",
+    next: "F116-2",
   },
 
   {
@@ -791,14 +791,14 @@ const cosmosData = [
   },
 
   {
-    id: "F116",
+    id: "F116-2",
     row: 17,
     col: 32,
     type: "fotografia",
-    caption: "Jorge 2025",
-    caption2: "Jorge Mota, Porto, 2025",
-    media: "media/images/F116_CADERNO_P_02.webp",
-    next: "F241",
+    caption: "IR 2017",
+    caption2: "C IR 2017, 2025",
+    media: "media/images/F116-2costasCAT.webp",
+    next: "F241-2",
   },
 
   {
@@ -818,7 +818,7 @@ const cosmosData = [
     col: 26,
     type: "fotografia",
     caption: "Armando 2020",
-    caption2: "Armando, Do Tirar Pelo natural, Lisboa, 2020",
+    caption2: "Armando 2020",
     media: "media/images/F125_DO_TIRAR.webp",
     next: "V025",
   },
@@ -1145,13 +1145,13 @@ const cosmosData = [
   },
 
   {
-    id: "F219",
+    id: "F219-2",
     row: 14,
     col: 4,
     type: "fotografia",
-    caption: "Celine 2018",
-    caption2: "Celine Noon, Lisboa, 2018",
-    media: "media/images/F219_CELINE_aguaPRETA_06.webp",
+    caption: "Nuno 2024",
+    caption2: "Nuno 2024",
+    media: "media/images/F219-2_cpNUNO.webp",
     next: "F084",
   },
 
@@ -1167,13 +1167,13 @@ const cosmosData = [
   },
 
   {
-    id: "F222",
+    id: "F222-2",
     row: 11,
     col: 15,
     type: "fotografia",
     caption: "Celine 2017",
-    caption2: "Celine Noon, Lisboa, 2017",
-    media: "media/images/F222_CELINE_cabecaPLASTICO_01.webp",
+    caption2: "Celine 2017",
+    media: "media/images/F222-2_celineMUMIA.webp",
     next: "F052",
   },
 
@@ -1233,13 +1233,13 @@ const cosmosData = [
   },
 
   {
-    id: "F241",
+    id: "F241-2",
     row: 2,
     col: 1,
     type: "fotografia",
-    caption: "João 2016",
-    caption2: "João 2016",
-    media: "media/images/F241_HUMANIDADEjoao_01.webp",
+    caption: "Maria 2021",
+    caption2: "Maria 2021",
+    media: "media/images/F241-2_todosMARIA.webp",
     next: "T042",
   },
 
@@ -1317,7 +1317,7 @@ const cosmosData = [
     caption: "Susana 2010",
     caption2: "Susana 2020",
     media: "media/images/F271_doTIRAR_susana_01.webp",
-    next: "F305",
+    next: "F305-2",
   },
 
   {
@@ -2033,7 +2033,7 @@ const cosmosData = [
     caption: "Duas camas",
     caption2: "António, Oficina de Escrita – Textos Escolhidos, TNSJ, 2011",
     text: "Nem havia aguardente em casa. À noite, no quarto, duas camas... duas camas, uma para mim outra para a ela... e ela nem estava lá... e eu sem memórias... o meu corpo sem memorias. E duas camas... uma vazia...",
-    next: "F219",
+    next: "F219-2",
   },
 
   {
