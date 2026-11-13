@@ -137,7 +137,7 @@ const cosmosData = [
     type: "fotografia",
     caption: "Pais 2007",
     caption2:
-      "Ricardo's Turismo Infinito &nbsp; Emília & João &nbsp; 2007",
+      "Ricardo's Turismo Infinito&nbsp;Emília & João&nbsp;2007",
     media: "media/images/F020_TURISMO.webp",
     next: "F029",
   },
