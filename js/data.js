@@ -1097,7 +1097,7 @@ const cosmosData = [
     caption: "IR 2018",
     caption2: "Celine IR 2018",
     media: "media/images/F207-2_IRceline.webp",
-    next: "V003",
+    next: "F400",
   },
 
   {
@@ -1340,6 +1340,17 @@ const cosmosData = [
     caption2: "TNDM II Workers' Faces 2016",
     media: "media/images/F283_Ssolar-2.webp",
     next: "F069B",
+  },
+  
+  {
+    id: "F400",
+    row: 3,
+    col: 20,
+    type: "fotografia",
+    caption: "H 2024",
+    caption2: "CP H 2024",
+    media: "media/images/F400_cpCABECA.webp",
+    next: "T037",
   },
 
   // ===== VIDEO =====
