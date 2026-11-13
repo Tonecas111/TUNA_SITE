@@ -25,16 +25,6 @@
 const cosmosData = [
   // ===== fotografia =====
   {
-    id: "F300-2",
-    row: 8,
-    col: 26,
-    type: "fotografia",
-    caption: "YP 2021",
-    caption2: "YP 2021",
-    media: "media/images/F300-2_cuecaLOLA.webp",
-    next: "F014",
-  },
-  {
     id: "F010-2",
     row: 6,
     col: 2,
@@ -359,17 +349,6 @@ const cosmosData = [
     caption2: "Celine IR 2018",
     media: "media/images/F040-2_celineIRdeitada.webp",
     next: "V013",
-  },
-
-  {
-    id: "F305-2",
-    row: 20,
-    col: 15,
-    type: "fotografia",
-    caption: "Leonor 2021",
-    caption2: "Leonor 2021",
-    media: "media/images/F305-2_lolaBANHO.webp",
-    next: "V008",
   },
 
   {
@@ -1340,6 +1319,28 @@ const cosmosData = [
     caption2: "Faces 2016",
     media: "media/images/F283_Ssolar-2.webp",
     next: "F069B",
+  },
+
+  {
+    id: "F300-2",
+    row: 8,
+    col: 26,
+    type: "fotografia",
+    caption: "YP 2021",
+    caption2: "YP 2021",
+    media: "media/images/F300-2_cuecaLOLA.webp",
+    next: "F014",
+  },
+
+{
+    id: "F305-2",
+    row: 20,
+    col: 15,
+    type: "fotografia",
+    caption: "Leonor 2021",
+    caption2: "Leonor 2021",
+    media: "media/images/F305-2_lolaBANHO.webp",
+    next: "V008",
   },
   
   {
