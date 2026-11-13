@@ -468,7 +468,7 @@ const cosmosData = [
     caption: "Emília 2008",
     caption2: "Emília Silvestre, Porto, 2008",
     media: "media/images/F054_EMILIA_SILVESTRE.webp",
-    next: "F207",
+    next: "F207-2",
   },
 
   {
