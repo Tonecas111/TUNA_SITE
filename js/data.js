@@ -45,6 +45,7 @@ const cosmosData = [
     media: "media/images/F012_BOB_WILSON.webp",
     next: "T021",
   },
+  
   {
     id: "F013",
     row: 14,
@@ -55,6 +56,7 @@ const cosmosData = [
     media: "media/images/F013_ANTIGONAmariaCEU.webp",
     next: "F043",
   },
+  
   {
     id: "F014",
     row: 8,
@@ -72,7 +74,7 @@ const cosmosData = [
     col: 36,
     type: "fotografia",
     caption: "D. Eunice 1993",
-    caption2: "D Eunice Zerlina 1993",
+    caption2: "Perry's Zerlina D Eunice 1993",
     media: "media/images/F015_ZERLINA.webp",
     next: "F161",
   },
@@ -1113,17 +1115,6 @@ const cosmosData = [
   },
 
   {
-    id: "F306B",
-    row: 23,
-    col: 33,
-    type: "fotografia",
-    caption: "B 2016",
-    caption2: "B 2016",
-    media: "media/images/F306B_COSTAScalle.webp",
-    next: "T035",
-  },
-
-  {
     id: "F219-2",
     row: 14,
     col: 4,
@@ -1341,6 +1332,17 @@ const cosmosData = [
     caption2: "Leonor 2021",
     media: "media/images/F305-2_lolaBANHO.webp",
     next: "V008",
+  },
+
+  {
+    id: "F306B",
+    row: 23,
+    col: 33,
+    type: "fotografia",
+    caption: "B 2016",
+    caption2: "B 2016",
+    media: "media/images/F306B_COSTAScalle.webp",
+    next: "T035",
   },
   
   {
