@@ -747,7 +747,7 @@ const cosmosData = [
   },
 
   {
-    id: "F108-B",
+    id: "F108B",
     row: 9,
     col: 25,
     type: "fotografia",
@@ -765,7 +765,7 @@ const cosmosData = [
     caption: "Book 2018",
     caption2: "Celine's book 2018",
     media: "media/images/F109-2_celineCADERNO.webp",
-    next: "F090",
+    next: "F090-2",
   },
 
   {
