@@ -1369,19 +1369,6 @@ const cosmosData = [
   },
 
   {
-    id: "V003",
-    row: 3,
-    col: 20,
-    type: "video",
-    caption: "Monchique 2020",
-    caption2: "Quando, Madalena Vitorino, Monchique, 2020",
-    media: "media/video/V003_MOI_QUANDO_01.webm",
-    poster: "media/posters/V003_MOI_QUANDO_01.jpg",
-    thumbTime: 1,
-    next: "T037",
-  },
-
-  {
     id: "V004",
     row: 7,
     col: 37,
