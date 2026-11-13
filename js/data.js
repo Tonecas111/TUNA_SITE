@@ -1996,7 +1996,7 @@ const cosmosData = [
     col: 37,
     type: "texto",
     caption: "Ich Bin Kein Berliner",
-    caption2: "Ich Bin Kein Berliner  TNSJ  2009",
+    caption2: "Ich Bin Kein Berliner 2009",
     text: "Ich Bin Kein Berliner (Eu não sou Berlinense) nomeia a frase empática que John F Kennedy proferiu diante do Muro de Berlim: Ich Bin Berliner – Eu sou Berlinense (1963). Diferente da solidariedade de Kennedy, a Alemanha e outros países do norte da Europa desprezaram os países do sul durante a crise financeira global que teve início em 2008, apelidando-os de PIIGS.\n\nA exposição Ich Bin Kein Berliner - 2009 - reúne um conjunto de treze fotografias de grande dimensão. Os rostos do elenco da produção Os Tambores na Noite de Bertolt Brecht com encenação de Nuno Carinhas.",
     next: "F102",
   },
