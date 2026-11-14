@@ -1683,7 +1683,7 @@ const cosmosData = [
     caption2:
       "Beckett's Rockaby Rosa Q 55'DVD 2006",
     media: "media/video/V031-2 Rockaby 04.webm",
-    poster: "media/posters/V031_ESTACAOvermelho_01.jpg",
+    poster: "media/posters/V031-2_ROCKABY_04.jpg",
     thumbTime: 4,
     next: "T040",
   },
