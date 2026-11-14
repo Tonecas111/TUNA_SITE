@@ -1775,7 +1775,7 @@ const cosmosData = [
     caption: "Horses 2016",
     caption2:
       "Cavalo de Sangue 100X180cm projection onto a table covered with black soil 15'HD 2016",
-    media: "media/video/V043_CAVALOsangue_01.webm",
+    media: "media/video/V043B_Cavalosangue_02.webm",
     poster: "media/posters/V043_CAVALOsangue_01.jpg",
     thumbTime: 23,
     next: "T030",
