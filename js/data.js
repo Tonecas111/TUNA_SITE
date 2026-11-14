@@ -1583,19 +1583,6 @@ const cosmosData = [
   },
 
   {
-    id: "V050",
-    row: 8,
-    col: 10,
-    type: "video",
-    caption: "Atmosfera 2021",
-    caption2: "Atmosfera Leonor 30'4K 2021",
-    media: "media/video/V050 Atmosferalterra 20.webm",
-    poster: "media/posters/V050_ATMOSFERAlterra_02.jpg",
-    thumbTime: 54,
-    next: "V016",
-  },
-
-  {
     id: "V022",
     row: 18,
     col: 1,
@@ -1806,6 +1793,19 @@ const cosmosData = [
     poster: "media/posters/V044_CAVALOsangue_01.jpg",
     thumbTime: 1,
     next: "V005b",
+  },
+
+  {
+    id: "V050",
+    row: 8,
+    col: 10,
+    type: "video",
+    caption: "Atmosfera 2021",
+    caption2: "Atmosfera Leonor 30'4K 2021",
+    media: "media/video/V050 Atmosferalterra 20.webm",
+    poster: "media/posters/V050_ATMOSFERAlterra_02.jpg",
+    thumbTime: 54,
+    next: "V016",
   },
 
   // ===== creditos =====
