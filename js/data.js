@@ -1319,7 +1319,7 @@ const cosmosData = [
     type: "fotografia",
     caption: "YP 2021",
     caption2: "YP 2021",
-    media: "media/images/F300-2_cuecaLOLA.webp",
+    media: "media/images/F300_S_Lola.webp",
     next: "F014",
   },
 
