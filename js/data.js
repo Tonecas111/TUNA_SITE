@@ -1761,7 +1761,7 @@ const cosmosData = [
     type: "video",
     caption: "Zé 2016",
     caption2: "Zé 5'SD 2016",
-    media: "media/video/V040_LARGOze_01.webm",
+    media: "media/video/V040_Largoze_20.webm",
     poster: "media/posters/V040_LARGOze_01.jpg",
     thumbTime: 2,
     next: "T012",
