@@ -52,7 +52,7 @@ const cosmosData = [
     col: 17,
     type: "fotografia",
     caption: "Antígona 2010",
-    caption2: "Maria do Céu Antígona 2010",
+    caption2: "Carinhas Antígona Maria do Céu 2010",
     media: "media/images/F013_ANTIGONAmariaCEU.webp",
     next: "F043",
   },
