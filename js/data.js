@@ -1679,10 +1679,10 @@ const cosmosData = [
     row: 23,
     col: 23,
     type: "video",
-    caption: "Terminal 2016",
+    caption: "Beckett 2006",
     caption2:
-      "Estação Terminal 6X10m projection 48'HD 2016",
-    media: "media/video/V031_ESTACAOvermelho_01.webm",
+      "Beckett's Rockaby Rosa Q 55'DVD 2006",
+    media: "media/video/V031-2 Rockaby 04.webm",
     poster: "media/posters/V031_ESTACAOvermelho_01.jpg",
     thumbTime: 4,
     next: "T040",
