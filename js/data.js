@@ -47,13 +47,13 @@ const cosmosData = [
   },
   
   {
-    id: "F013",
+    id: "F013-2",
     row: 14,
     col: 17,
     type: "fotografia",
-    caption: "Antígona 2010",
-    caption2: "Carinhas Antígona Maria do Céu 2010",
-    media: "media/images/F013_ANTIGONAmariaCEU.webp",
+    caption: "Cecília 2001",
+    caption2: "Cecília 2001",
+    media: "media/images/F013-2_HORAceclia.webp",
     next: "F043",
   },
   
