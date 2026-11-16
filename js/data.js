@@ -131,7 +131,7 @@ const cosmosData = [
     caption2:
       "Faces 2016",
     media: "media/images/F020-2_facesTNDMII.webp",
-    next: "F029",
+    next: "F029-2",
   },
 
   {
@@ -222,7 +222,7 @@ const cosmosData = [
   },
 
   {
-    id: "F029",
+    id: "F029-2",
     row: 15,
     col: 32,
     type: "fotografia",
@@ -537,7 +537,7 @@ const cosmosData = [
     caption: "Eye 2018",
     caption2: "Celine 2018",
     media: "media/images/F66_CELINEagua_03.webp",
-    next: "F110B",
+    next: "F110-3",
   },
 
   {
@@ -944,7 +944,7 @@ const cosmosData = [
     caption: "Mónica 1993",
     caption2: "Mónica 1993",
     media: "media/images/F158_JOGOSdeNOITE.webp",
-    next: "F160-2",
+    next: "F160-3",
   },
 
   {
@@ -2023,7 +2023,7 @@ const cosmosData = [
     caption: "Abre a porta",
     caption2: "António  Odisseia  TNSJ  2011",
     text: "No verão a chave não entrou... a chave não entrou na fechadura... bato... A minha Fátima abre a porta... olha-me com surpresa... Doze anos, a Fátima já tem doze anos... linda! Está muda... eu digo COM LICENÇA. Dou-lhe um beijo e digo COM LICENÇA... Limpo os pés, digo COM LICENÇA e entro. Com licença... para entrar na minha casa... bato à porta... a Fátima já tem doze anos... feitos em Maio... nasceram todas em Maio... as três meninas... a Fátima é a mais nova... todos os anos em Agosto abri aquela porta...",
-    next: "F013",
+    next: "F013-2",
   },
 
   {
@@ -2057,7 +2057,7 @@ const cosmosData = [
     caption2:
       'Para lá do Hábito ou "Boi" não é um Boi  Figurinos  Edições Afrontamento  2018',
     text: "'E' tem assim uma tarefa a cumprir, a responsabilidade sobre a construção do significado do que lhe é dado a ver, sobre a compreensão da coisa cénica. Mais, é-lhe exigido o conhecimento dos códigos teatrais, da simbologia dos signos, da função da ficção; este é o bilhete que 'E' deve adquirir para se poder sentar, em total liberdade, defronte da cena teatral. A cena é diversa da realidade, ainda que possa enunciar um mundo possível não abandona, nunca, a propriedade do valor simbólico (...)",
-    next: "F020",
+    next: "F020-2",
   },
 
   {
@@ -2153,7 +2153,7 @@ const cosmosData = [
     caption2:
       "Fixar o Que Não Pode Ser Fixado  Teatro do Vestido – um dicionário  Bicho do Mato  2018",
     text: "A obra de arte é independente do leitor, do seu modelo, do seu autor. Estes experimentam-na, de modo diverso, por via de um conjunto de sensações vitais que os aproxima do conhecimento sensível. Percepto e afecto sobrevivem, explodem na inverosimilhança geométrica, na imperfeição física, na anomalia orgânica.",
-    next: "F155-2",
+    next: "F155-3",
   },
 
   {
