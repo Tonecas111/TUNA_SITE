@@ -123,14 +123,14 @@ const cosmosData = [
     next: "F010-2",
   },
   {
-    id: "F020",
+    id: "F020-2",
     row: 19,
     col: 7,
     type: "fotografia",
-    caption: "Pais 2007",
+    caption: "Faces 2016",
     caption2:
-      "Ricardo's Turismo Infinito&nbsp;Emília & João&nbsp;2007",
-    media: "media/images/F020_TURISMO.webp",
+      "Faces 2016",
+    media: "media/images/F020-2_facesTNDMII.webp",
     next: "F029",
   },
 
@@ -750,13 +750,13 @@ const cosmosData = [
   },
 
   {
-    id: "F110B",
+    id: "F110-3",
     row: 4,
     col: 41,
     type: "fotografia",
-    caption: "Paula 2022",
-    caption2: "Paula 2022",
-    media: "media/images/F110B_personaPAULA.webp",
+    caption: "I 2016",
+    caption2: "I 2016",
+    media: "media/images/F110-3_INESquartoE.webp",
     next: "F068",
   },
 
@@ -915,13 +915,13 @@ const cosmosData = [
   },
 
   {
-    id: "F155-2",
+    id: "F155-3",
     row: 5,
     col: 10,
     type: "fotografia",
     caption: "Bruce 1997",
-    caption2: "Sandra & Luísa 1997",
-    media: "media/images/F155-2_bruceMARIE.webp",
+    caption2: "Sandra Luísa & Marcello 1997",
+    media: "media/images/F155-3_MARIE&bruce.webp",
     next: "V023",
   },
 
@@ -959,13 +959,13 @@ const cosmosData = [
   },
 
   {
-    id: "F160-2",
+    id: "F160-3",
     row: 13,
     col: 22,
     type: "fotografia",
-    caption: "Meia Noite 2000",
-    caption2: "Mónica 2000",
-    media: "media/images/F160-2_monicaMN.webp",
+    caption: "C 2018",
+    caption2: "C 2018",
+    media: "media/images/F160-3_CELbranca.webp",
     next: "V043",
   },
 
