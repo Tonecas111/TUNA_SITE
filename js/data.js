@@ -657,7 +657,7 @@ const cosmosData = [
     type: "fotografia",
     caption: "Helder 2017",
     caption2: "Helder 2017",
-    media: "media/images/F089-2_todoMUNDhelder.webp",
+    media: "media/images/F089-2todoMUNDhelder.webp",
     next: "F071-2",
   },
 
