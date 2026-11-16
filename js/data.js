@@ -920,7 +920,7 @@ const cosmosData = [
     col: 10,
     type: "fotografia",
     caption: "Bruce 1997",
-    caption2: "Sandra Luísa & Marcello 1997",
+    caption2: "Sandra Marcello & Luísa 1997",
     media: "media/images/F155-3_MARIE&bruce.webp",
     next: "V023",
   },
