@@ -226,9 +226,9 @@ const cosmosData = [
     row: 15,
     col: 32,
     type: "fotografia",
-    caption: "João 1996",
-    caption2: "João 1996",
-    media: "media/images/F029_JOAO_MOTA.webp",
+    caption: "João 2000",
+    caption2: "João 2000",
+    media: "media/images/F029-2_MOTAvento.webp",
     next: "F175",
   },
 
