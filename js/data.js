@@ -251,7 +251,7 @@ const cosmosData = [
     caption: "Pedro 2010",
     caption2: "Pedro 2010",
     media: "media/images/F031B_pedroALM.webp",
-    next: "T017",
+    next: "F404",
   },
 
   {
@@ -1144,7 +1144,7 @@ const cosmosData = [
     caption: "Celine 2017",
     caption2: "Celine 2017",
     media: "media/images/F222-2_celineMUMIA.webp",
-    next: "F052",
+    next: "F406",
   },
 
   {
@@ -1276,7 +1276,7 @@ const cosmosData = [
     caption: "Carlos 2020",
     caption2: "Carlos 2020",
     media: "media/images/F267_doTIRAR_carlos_01.webp",
-    next: "T043",
+    next: "F402",
   },
 
   {
@@ -1354,6 +1354,39 @@ const cosmosData = [
     caption2: "CP H 2024",
     media: "media/images/F400_cpCABECA.webp",
     next: "T037",
+  },
+
+  {
+    id: "F402",
+    row: 11,
+    col: 37,
+    type: "fotografia",
+    caption: "Catarina 2004",
+    caption2: "Catarina 2004",
+    media: "media/images/F402_KATAanjo.webp",
+    next: "T043",
+  },
+
+  {
+    id: "F404",
+    row: 6,
+    col: 13,
+    type: "fotografia",
+    caption: "Maria 1987",
+    caption2: "Maria 1987",
+    media: "media/images/F404_MARIAsolar.webp",
+    next: "T017",
+  },
+
+  {
+    id: "F406",
+    row: 12,
+    col: 21,
+    type: "fotografia",
+    caption: "Alexandre 1996",
+    caption2: "Alexandre 1996",
+    media: "media/images/F406_ALEXsonho.webp",
+    next: "F052",
   },
 
   // ===== VIDEO =====
