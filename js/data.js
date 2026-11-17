@@ -431,13 +431,13 @@ const cosmosData = [
   },
 
   {
-    id: "F052",
+    id: "F052B",
     row: 14,
     col: 15,
     type: "fotografia",
     caption: "Alice 2018",
     caption2: "Alice 2018",
-    media: "media/images/F052_RAPARIGAtodos.webp",
+    media: "media/images/F052B_meninaMANCHAS.webp",
     next: "T032",
   },
 
@@ -706,24 +706,24 @@ const cosmosData = [
   },
 
   {
-    id: "F102",
+    id: "F102-2",
     row: 16,
     col: 41,
     type: "fotografia",
-    caption: "Eduardo 2009",
-    caption2: "Eduardo 2009",
-    media: "media/images/F102_ICH.webp",
+    caption: "I 1992",
+    caption2: "I 1992",
+    media: "media/images/F102-2_INEScostas.webp",
     next: "F099",
   },
 
   {
-    id: "F103",
+    id: "F103-C",
     row: 1,
     col: 4,
     type: "fotografia",
     caption: "Pedro 2009",
     caption2: "Pedro 2009",
-    media: "media/images/F103_ICH.webp",
+    media: "media/images/F103-C_almendraICH.webp",
     next: "T011",
   },
 
@@ -779,7 +779,7 @@ const cosmosData = [
     caption: "IR 2017",
     caption2: "C IR 2017",
     media: "media/images/F116-2costasCAT.webp",
-    next: "F241-2",
+    next: "F241-3",
   },
 
   {
@@ -889,7 +889,7 @@ const cosmosData = [
     caption: "Otelo 2018",
     caption2: "António 2018",
     media: "media/images/F150_ML_BW_07.webp",
-    next: "F103",
+    next: "F103-C",
   },
 
   {
@@ -1203,13 +1203,13 @@ const cosmosData = [
   },
 
   {
-    id: "F241-2",
+    id: "F241-3",
     row: 2,
     col: 1,
     type: "fotografia",
     caption: "Maria 2021",
     caption2: "Maria 2021",
-    media: "media/images/F241-2_todosMARIA.webp",
+    media: "media/images/F241-3_negraCOLAR.webp",
     next: "T042",
   },
 
@@ -1386,7 +1386,7 @@ const cosmosData = [
     caption: "Alexandre 1996",
     caption2: "Alexandre 1996",
     media: "media/images/F406_ALEXsonho.webp",
-    next: "F052",
+    next: "F052B",
   },
 
   // ===== VIDEO =====
@@ -2034,7 +2034,7 @@ const cosmosData = [
     caption: "Ich Bin Kein Berliner",
     caption2: "Ich Bin Kein Berliner 2009",
     text: "Ich Bin Kein Berliner (Eu não sou Berlinense) nomeia a frase empática que John F Kennedy proferiu diante do Muro de Berlim: Ich Bin Berliner – Eu sou Berlinense (1963). Diferente da solidariedade de Kennedy, a Alemanha e outros países do norte da Europa desprezaram os países do sul durante a crise financeira global que teve início em 2008, apelidando-os de PIIGS.\n\nA exposição Ich Bin Kein Berliner - 2009 - reúne um conjunto de treze fotografias de grande dimensão. Os rostos do elenco da produção Os Tambores na Noite de Bertolt Brecht com encenação de Nuno Carinhas.",
-    next: "F102",
+    next: "F102-2",
   },
 
   {
