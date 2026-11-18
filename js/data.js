@@ -963,9 +963,9 @@ const cosmosData = [
     row: 13,
     col: 22,
     type: "fotografia",
-    caption: "C 2018",
-    caption2: "C 2018",
-    media: "media/images/F160-4_anaBustorff.webp",
+    caption: "M 2016",
+    caption2: "M 2016",
+    media: "media/images/F160-4_monicaQUARTO.webp",
     next: "V043",
   },
 
