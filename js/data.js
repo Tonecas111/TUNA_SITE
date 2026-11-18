@@ -119,7 +119,7 @@ const cosmosData = [
     type: "fotografia",
     caption: "Nekrosius 2003",
     caption2: "Nekrosius's Otelas 2003",
-    media: "media/images/F019_NEKROSIUS.webp",
+    media: "media/images/F019_NekrousiusMACBETH.jpg",
     next: "F010-2",
   },
   {
