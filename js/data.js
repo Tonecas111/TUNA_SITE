@@ -944,7 +944,7 @@ const cosmosData = [
     caption: "Mónica 1993",
     caption2: "Mónica 1993",
     media: "media/images/F158_JOGOSdeNOITE.webp",
-    next: "F160-3",
+    next: "F160-4",
   },
 
   {
@@ -959,13 +959,13 @@ const cosmosData = [
   },
 
   {
-    id: "F160-3",
+    id: "F160-4",
     row: 13,
     col: 22,
     type: "fotografia",
     caption: "C 2018",
     caption2: "C 2018",
-    media: "media/images/F160-3_CELbranca.webp",
+    media: "media/images/F160-4_anaBustorff.webp",
     next: "V043",
   },
 
