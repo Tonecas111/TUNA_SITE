@@ -1449,7 +1449,7 @@ const cosmosData = [
     col: 20,
     type: "video",
     caption: "Feira da Ladra 1985",
-    caption2: "Feira da Ladra 50'VHS-C 1985",
+    caption2: "Juventude 50'VHS-C 1985",
     media: "media/video/V006_FEIRAdaLADRA_01.webm",
     poster: "media/posters/V006_FEIRAdaLADRA_01.jpg",
     thumbTime: 5,
