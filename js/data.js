@@ -707,7 +707,7 @@ const cosmosData = [
 
   {
     id: "F102-2",
-    row: 16,
+    row: 15,
     col: 41,
     type: "fotografia",
     caption: "I 1992",
