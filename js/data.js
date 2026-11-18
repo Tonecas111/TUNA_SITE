@@ -766,7 +766,7 @@ const cosmosData = [
     col: 3,
     type: "fotografia",
     caption: "IR 2018",
-    caption2: "Celine IR 2018",
+    caption2: "C IR 2018",
     media: "media/images/F111-2_IRceline.webp",
     next: "F176-2",
   },
