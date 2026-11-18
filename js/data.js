@@ -208,7 +208,7 @@ const cosmosData = [
     caption: "Cesariny 2002",
     caption2: "Mário 2002",
     media: "media/images/F027MARIO_CESARINY.webp",
-    next: "F030",
+    next: "F036B",
   },
   {
     id: "F028",
@@ -240,7 +240,7 @@ const cosmosData = [
     caption: "Alfredo 1996",
     caption2: "Alfredo 1996",
     media: "media/images/F030_ALFREDO.webp",
-    next: "F036B",
+    next: "F206",
   },
 
   {
@@ -394,7 +394,7 @@ const cosmosData = [
     caption: "T 2009",
     caption2: "Toy 2009",
     media: "media/images/F046_TOYs.webp",
-    next: "F206",
+    next: "F030",
   },
 
   {
