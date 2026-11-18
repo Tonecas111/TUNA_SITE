@@ -559,7 +559,7 @@ const cosmosData = [
     caption: "Celine 2017",
     caption2: "Celine 2017",
     media: "media/images/F68_CELINEcarvao_01.webp",
-    next: "F129",
+    next: "T037",
   },
 
   {
@@ -757,7 +757,7 @@ const cosmosData = [
     caption: "I 2016",
     caption2: "I 2016",
     media: "media/images/F110-3_INESquartoE.webp",
-    next: "F068",
+    next: "F129",
   },
 
   {
@@ -1353,7 +1353,7 @@ const cosmosData = [
     caption: "H 2024",
     caption2: "CP H 2024",
     media: "media/images/F400_cpCABECA.webp",
-    next: "T037",
+    next: "F068",
   },
 
   {
