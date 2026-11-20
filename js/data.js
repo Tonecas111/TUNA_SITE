@@ -25,13 +25,13 @@
 const cosmosData = [
   // ===== fotografia =====
   {
-    id: "F010-2",
+    id: "F010-3",
     row: 6,
     col: 2,
     type: "fotografia",
-    caption: "Sara 2008",
-    caption2: "Sara 2008",
-    media: "media/images/F010-2_saraC.webp",
+    caption: "#L 2021",
+    caption2: "Hélder & #L 2021",
+    media: "media/images/F010-3_helderLIVROlolaB.webp",
     next: "T026",
   },
 
@@ -120,7 +120,7 @@ const cosmosData = [
     caption: "Nekrosius 2003",
     caption2: "Nekrosius's Otelas 2003",
     media: "media/images/F019_NekrousiusMACBETH.jpg",
-    next: "F010-2",
+    next: "F010-3",
   },
   {
     id: "F020-2",
@@ -251,7 +251,7 @@ const cosmosData = [
     caption: "Pedro 2010",
     caption2: "Pedro 2010",
     media: "media/images/F031B_pedroALM.webp",
-    next: "F404",
+    next: "F404-2",
   },
 
   {
@@ -405,7 +405,7 @@ const cosmosData = [
     caption: "IR 2017",
     caption2: "Celine 2017",
     media: "media/images/F048-2_celineIR.webp",
-    next: "F089-2",
+    next: "F089-3",
   },
 
   {
@@ -427,7 +427,7 @@ const cosmosData = [
     caption: "Diana 2022",
     caption2: "Diana 2022",
     media: "media/images/F051_DIANA_SOUSA.webp",
-    next: "F125",
+    next: "F125-2",
   },
 
   {
@@ -508,13 +508,13 @@ const cosmosData = [
   },
 
   {
-    id: "F062-2",
+    id: "F062-3",
     row: 13,
     col: 16,
     type: "fotografia",
-    caption: "#k 2017",
-    caption2: "Celine #K 2017",
-    media: "media/images/F062-2_celineLIVRO.webp",
+    caption: "#k3 2018",
+    caption2: "Diana #K3 2018",
+    media: "media/images/F062-3_dianaLIVRO.webp",
     next: "V007",
   },
 
@@ -651,13 +651,13 @@ const cosmosData = [
   },
 
   {
-    id: "F089-2",
+    id: "F089-3",
     row: 23,
     col: 12,
     type: "fotografia",
-    caption: "Helder 2017",
-    caption2: "Helder 2017",
-    media: "media/images/F089-2todoMUNDhelder.webp",
+    caption: "C 2018",
+    caption2: "C 2018",
+    media: "media/images/F089-3_celineESTRADO.webp",
     next: "F071-2",
   },
 
@@ -706,13 +706,13 @@ const cosmosData = [
   },
 
   {
-    id: "F102-2",
+    id: "F102-3",
     row: 15,
     col: 41,
     type: "fotografia",
-    caption: "I 1992",
-    caption2: "I 1992",
-    media: "media/images/F102-2_INEScostas.webp",
+    caption: "B 2017",
+    caption2: "B 2017",
+    media: "media/images/F102-3_celineFATOb.webp",
     next: "F099",
   },
 
@@ -757,7 +757,7 @@ const cosmosData = [
     caption: "I 2016",
     caption2: "I 2016",
     media: "media/images/F110-3_INESquartoE.webp",
-    next: "F129",
+    next: "F129-2",
   },
 
   {
@@ -794,13 +794,13 @@ const cosmosData = [
   },
 
   {
-    id: "F125",
+    id: "F125-2",
     row: 9,
     col: 26,
     type: "fotografia",
-    caption: "Armando 2020",
-    caption2: "Armando 2020",
-    media: "media/images/F125_DO_TIRAR.webp",
+    caption: "#Do Tirar 2020",
+    caption2: "Armando #Do Tirar 2020",
+    media: "media/images/F125-2_armandoLIVRO.webp",
     next: "V025",
   },
 
@@ -838,13 +838,13 @@ const cosmosData = [
   },
 
   {
-    id: "F129",
+    id: "F129-2",
     row: 22,
     col: 22,
     type: "fotografia",
-    caption: "Dália 2020",
-    caption2: "Dália 2020",
-    media: "media/images/F129_DO_TIRAR.webp",
+    caption: "#Do Tirar 2020",
+    caption2: "Dália #Do Tirar 2020",
+    media: "media/images/F129-2_daliaLIVRO.webp",
     next: "V010",
   },
 
@@ -988,7 +988,7 @@ const cosmosData = [
     caption: "Alexandre 2001",
     caption2: "Alexandre 2001",
     media: "media/images/F162_A_HORA.webp",
-    next: "F208",
+    next: "F208-2",
   },
 
   {
@@ -1082,13 +1082,13 @@ const cosmosData = [
   },
 
   {
-    id: "F208",
+    id: "F208-2",
     row: 11,
     col: 1,
     type: "fotografia",
-    caption: "V 2017",
-    caption2: "V 2017",
-    media: "media/images/F208_CELINE_IRamor_01.webp",
+    caption: "L# 2021",
+    caption2: "L# 2021",
+    media: "media/images/F208-2_lolaCUECA.webp",
     next: "V026",
   },
 
@@ -1144,7 +1144,7 @@ const cosmosData = [
     caption: "Celine 2017",
     caption2: "Celine 2017",
     media: "media/images/F222-2_celineMUMIA.webp",
-    next: "F406",
+    next: "F406-2",
   },
 
   {
@@ -1166,7 +1166,7 @@ const cosmosData = [
     caption: "Diana 2022",
     caption2: "Diana 2022",
     media: "media/images/F226-2_dianaPALA.webp",
-    next: "F243",
+    next: "F243-2",
   },
 
   {
@@ -1192,13 +1192,13 @@ const cosmosData = [
   },
 
   {
-    id: "F240",
+    id: "F240-2",
     row: 2,
     col: 27,
     type: "fotografia",
-    caption: "Joana 2016",
-    caption2: "Joana 2016",
-    media: "media/images/F240_HUMANIDADEjoana_01.webp",
+    caption: "#Dias 2016",
+    caption2: "João & Joana #Dias 2016",
+    media: "media/images/F240-2_JOsDIAS.webp",
     next: "F245-2",
   },
 
@@ -1214,13 +1214,13 @@ const cosmosData = [
   },
 
   {
-    id: "F243",
+    id: "F243-2",
     row: 9,
     col: 41,
     type: "fotografia",
-    caption: "Sara 2016",
-    caption2: "Sara 2016",
-    media: "media/images/F243_HUMANIDADEsara_01.webp",
+    caption: "IR 2017",
+    caption2: "C IR 2017",
+    media: "media/images/F243-2_celineIRgrito.webp",
     next: "F306B",
   },
 
@@ -1368,24 +1368,24 @@ const cosmosData = [
   },
 
   {
-    id: "F404",
+    id: "F404-2",
     row: 6,
     col: 13,
     type: "fotografia",
-    caption: "Maria 1987",
-    caption2: "Maria 1987",
-    media: "media/images/F404_MARIAsolar.webp",
+    caption: "C 2018",
+    caption2: "celine 2018",
+    media: "media/images/F404-2_celineAZUL.webp",
     next: "T017",
   },
 
   {
-    id: "F406",
+    id: "F406-2",
     row: 12,
     col: 21,
     type: "fotografia",
-    caption: "Alexandre 1996",
-    caption2: "Alexandre 1996",
-    media: "media/images/F406_ALEXsonho.webp",
+    caption: "Urgeghe 2016",
+    caption2: "Marcello 2016",
+    media: "media/images/F406-2_marcelloDIAS.webp",
     next: "F052B",
   },
 
@@ -1999,7 +1999,7 @@ const cosmosData = [
     caption2:
       "Efeminização em António e Cleópatra de William Shakespeare  FLUP  2004",
     text: "Um herói a quem a amante alcooliza e veste com as suas roupas (...) de mulher. Um herói travestido de mulher assim como os rapazes actores. Um rapaz vestido de mulher que veste, também de mulher, um homem. Que veste o homem.",
-    next: "F062-2",
+    next: "F062-3",
   },
 
   {
@@ -2034,7 +2034,7 @@ const cosmosData = [
     caption: "Ich Bin Kein Berliner",
     caption2: "Ich Bin Kein Berliner 2009",
     text: "Ich Bin Kein Berliner (Eu não sou Berlinense) nomeia a frase empática que John F Kennedy proferiu diante do Muro de Berlim: Ich Bin Berliner – Eu sou Berlinense (1963). Diferente da solidariedade de Kennedy, a Alemanha e outros países do norte da Europa desprezaram os países do sul durante a crise financeira global que teve início em 2008, apelidando-os de PIIGS.\n\nA exposição Ich Bin Kein Berliner - 2009 - reúne um conjunto de treze fotografias de grande dimensão. Os rostos do elenco da produção Os Tambores na Noite de Bertolt Brecht com encenação de Nuno Carinhas.",
-    next: "F102-2",
+    next: "F102-3",
   },
 
   {
@@ -2162,7 +2162,7 @@ const cosmosData = [
     caption2:
       'Para lá do Hábito ou "Boi" não é um Boi  Figurinos  Edições Afrontamento  2018',
     text: "Significante e significado divergem, a aparência sobrepõe-se à ideia mental do objecto; aqui, a linguagem de natureza analógica bloqueia a relação de convenção que deveria dar lugar ao reconhecimento do signo. A magreza na seminudez corrompe o significado da Morte. O nú, só por si, provoca uma \"estranheza inquietante\" (Pavis 2003: 165), condição que 'E' deveria ter presente. Não deve a figura da Morte causar desconforto, inquietação? Existe uma linha entre bom e mau desconforto?",
-    next: "F240",
+    next: "F240-2",
   },
 
   {
