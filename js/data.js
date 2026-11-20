@@ -652,8 +652,8 @@ const cosmosData = [
 
   {
     id: "F089-3",
-    row: 23,
-    col: 12,
+    row: 12,
+    col: 21,
     type: "fotografia",
     caption: "C 2018",
     caption2: "C 2018",
@@ -1380,8 +1380,8 @@ const cosmosData = [
 
   {
     id: "F406-2",
-    row: 12,
-    col: 21,
+    row: 23,
+    col: 12,
     type: "fotografia",
     caption: "Urgeghe 2016",
     caption2: "Marcello 2016",
