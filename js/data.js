@@ -757,7 +757,7 @@ const cosmosData = [
     caption: "I 2016",
     caption2: "I 2016",
     media: "media/images/F110-3_INESquartoE.webp",
-    next: "F129-2",
+    next: "F129",
   },
 
   {
@@ -838,13 +838,13 @@ const cosmosData = [
   },
 
   {
-    id: "F129-2",
+    id: "F129",
     row: 22,
     col: 22,
     type: "fotografia",
-    caption: "#Do Tirar 2020",
-    caption2: "Dália #Do Tirar 2020",
-    media: "media/images/F129-2_daliaLIVRO.webp",
+    caption: "#Dália 2020",
+    caption2: "Dália 2020",
+    media: "media/images/F129_DO_TIRAR.webp",
     next: "V010",
   },
 
@@ -1199,7 +1199,7 @@ const cosmosData = [
     caption: "#Dias 2016",
     caption2: "João & Joana #Dias 2016",
     media: "media/images/F240-2_JOsDIAS.webp",
-    next: "F245-3",
+    next: "F245-2",
   },
 
   {
@@ -1225,13 +1225,13 @@ const cosmosData = [
   },
 
   {
-    id: "F245-3",
+    id: "F245-2",
     row: 23,
     col: 35,
     type: "fotografia",
-    caption: "#Do Tirar 2020",
-    caption2: "Sílvia #Do Tirar 2020",
-    media: "media/images/F245-3_silviaLIVRO.webp",
+    caption: "Sílvia 2020",
+    caption2: "Sílvia 2020",
+    media: "media/images/F245-2_tirarSILVIA.webp",
     next: "F147-2",
   },
 
@@ -1372,9 +1372,9 @@ const cosmosData = [
     row: 6,
     col: 13,
     type: "fotografia",
-    caption: "C 2018",
-    caption2: "celine 2018",
-    media: "media/images/F404-2_celineAZUL.webp",
+    caption: "Benedita 2016",
+    caption2: "Benedita 2016",
+    media: "media/images/F404-2_DIASbenedita.webp",
     next: "T017",
   },
 
