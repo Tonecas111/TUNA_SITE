@@ -1199,7 +1199,7 @@ const cosmosData = [
     caption: "#Dias 2016",
     caption2: "João & Joana #Dias 2016",
     media: "media/images/F240-2_JOsDIAS.webp",
-    next: "F245-2",
+    next: "F245-3",
   },
 
   {
@@ -1225,13 +1225,13 @@ const cosmosData = [
   },
 
   {
-    id: "F245-2",
+    id: "F245-3",
     row: 23,
     col: 35,
     type: "fotografia",
-    caption: "Sílvia 2020",
-    caption2: "Sílvia 2020",
-    media: "media/images/F245-2_tirarSILVIA.webp",
+    caption: "#Do Tirar 2020",
+    caption2: "Sílvia #Do Tirar 2020",
+    media: "media/images/F245-3_silviaLIVRO.webp",
     next: "F147-2",
   },
 
