@@ -29,9 +29,9 @@ const cosmosData = [
     row: 6,
     col: 2,
     type: "fotografia",
-    caption: "#L 2021",
-    caption2: "Hélder & #L 2021",
-    media: "media/images/F010-3_helderLIVROlolaB.webp",
+    caption: "Book 2018",
+    caption2: "Celine Book 2018",
+    media: "media/images/F010-3_celineBOOK_02.webp",
     next: "T026",
   },
 
