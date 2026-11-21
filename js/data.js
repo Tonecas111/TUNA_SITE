@@ -30,7 +30,7 @@ const cosmosData = [
     col: 2,
     type: "fotografia",
     caption: "Book 2018",
-    caption2: "Celine Book 2018",
+    caption2: "Celine's book 2018",
     media: "media/images/F010-3_celineBOOK_02.webp",
     next: "T026",
   },
