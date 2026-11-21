@@ -185,7 +185,7 @@ const cosmosData = [
     type: "fotografia",
     caption: "Trintignant 1995",
     caption2: "Marie 1995",
-    media: "media/images/F025_MARIE_TRINTIGNANT.webp",
+    media: "media/images/F025_marieTRINTIGNANTb.webp",
     next: "F048-2",
   },
 
