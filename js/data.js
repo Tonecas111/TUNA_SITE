@@ -1395,8 +1395,8 @@ const cosmosData = [
     col: 30,
     type: "fotografia",
     caption: "CP 2024",
-    caption2: "Mário CP 2024",
-    media: "media/images/F408_marioCP.webp",
+    caption2: "Jorge CP 2024",
+    media: "media/images/F408_jorgeCP.webp",
     next: "F052B",
   },
 
