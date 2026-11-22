@@ -746,7 +746,7 @@ const cosmosData = [
     caption: "Book 2018",
     caption2: "Celine's book 2018",
     media: "media/images/F109-2_celineCADERNO.webp",
-    next: "F090-2",
+    next: "F410",
   },
 
   {
@@ -1386,7 +1386,29 @@ const cosmosData = [
     caption: "Urgeghe 2016",
     caption2: "Marcello 2016",
     media: "media/images/F406-2_marcelloDIAS.webp",
+    next: "F408",
+  },
+
+  {
+    id: "F408",
+    row: 17,
+    col: 30,
+    type: "fotografia",
+    caption: "CP 2024",
+    caption2: "Mário CP 2024",
+    media: "media/images/F408_marioCP.webp",
     next: "F052B",
+  },
+
+  {
+    id: "F410",
+    row: 4,
+    col: 25,
+    type: "fotografia",
+    caption: "CP 2024",
+    caption2: "Carolina CP 2024",
+    media: "media/images/F410_carolinaCP.webp",
+    next: "F090-2",
   },
 
   // ===== VIDEO =====
