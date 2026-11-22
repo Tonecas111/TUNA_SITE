@@ -569,7 +569,7 @@ const cosmosData = [
     type: "fotografia",
     caption: "T 2017",
     caption2: "T 2017",
-    media: "media/images/F069B_celineLINGUA.webp",
+    media: "media/images/F069B_celLINGUApreto2.webp",
     next: "F159",
   },
 
@@ -1394,9 +1394,9 @@ const cosmosData = [
     row: 17,
     col: 30,
     type: "fotografia",
-    caption: "CP 2024",
-    caption2: "Jorge CP 2024",
-    media: "media/images/F408_esferoviteCP.webp",
+    caption: "S Miguel 2023",
+    caption2: "W 2023",
+    media: "media/images/F408_madeiraSmiguel.webp",
     next: "F052B",
   },
 
