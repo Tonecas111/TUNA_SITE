@@ -361,7 +361,7 @@ const cosmosData = [
     caption: "B 2022",
     caption2: "B 2022",
     media: "media/images/F043_LEONORcostas.webp",
-    next: "F222-2",
+    next: "F406-2",
   },
 
   {
@@ -1144,7 +1144,7 @@ const cosmosData = [
     caption: "Celine 2017",
     caption2: "Celine 2017",
     media: "media/images/F222-2_celineMUMIA.webp",
-    next: "F406-2",
+    next: "F408",
   },
 
   {
@@ -1386,7 +1386,7 @@ const cosmosData = [
     caption: "Urgeghe 2016",
     caption2: "Marcello 2016",
     media: "media/images/F406-2_marcelloDIAS.webp",
-    next: "F408",
+    next: "F222-2",
   },
 
   {
