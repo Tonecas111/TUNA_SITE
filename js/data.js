@@ -1374,7 +1374,7 @@ const cosmosData = [
     type: "fotografia",
     caption: "Benedita 2016",
     caption2: "Benedita 2016",
-    media: "media/images/F404-2_DIASbenedita.webp",
+    media: "media/images/F404-2_beny02.webp",
     next: "T017",
   },
 
