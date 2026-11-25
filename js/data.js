@@ -667,8 +667,8 @@ const cosmosData = [
     col: 16,
     type: "fotografia",
     caption: "Branca 2020",
-    caption2: "Branca 2020",
-    media: "media/images/F090-2_tirarBRANCA.webp",
+    caption2: "Branca\u00A0\u00A0\u00A0#Do Tirar\u00A0\u00A0\u00A02020",
+    media: "media/images/F090_brancaDOtirar.webp",
     next: "F091-2",
   },
 
@@ -1251,9 +1251,9 @@ const cosmosData = [
     row: 4,
     col: 3,
     type: "fotografia",
-    caption: "Ana 2020",
-    caption2: "Ana 2020",
-    media: "media/images/F264_doTIRAR_ana_01.webp",
+    caption: "#Do Tirar 2020",
+    caption2: "Ana\u00A0\u00A0\u00A0#Do Tirar\u00A0\u00A0\u00A02020",
+    media: "media/images/F264_ANAdoTIRAR.webp",
     next: "T033",
   },
 
