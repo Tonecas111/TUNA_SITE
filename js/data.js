@@ -1372,9 +1372,9 @@ const cosmosData = [
     row: 6,
     col: 13,
     type: "fotografia",
-    caption: "Benedita 2016",
-    caption2: "Benedita 2016",
-    media: "media/images/F404-2_beny02.webp",
+    caption: "IR 2017",
+    caption2: "P IR 2017",
+    media: "media/images/F404-2_plantaIR-03.webp",
     next: "T017",
   },
 
