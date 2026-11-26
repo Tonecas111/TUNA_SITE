@@ -2109,7 +2109,7 @@ const cosmosData = [
     type: "texto",
     caption: "Boi não é um boi",
     caption2:
-      'Para lá do Hábito ou "Boi" não é um Boi\u00A0\u00A0\u00A0\u00A0\Figurinos\u00A0\u00A0\u00A0\u00A0\Edições Afrontamento\u00A0\u00A0\u00A0\u00A0\2018',
+      'Para lá do Hábito ou "Boi" não é um Boi\u00A0\u00A0\u00A0\u00A0Figurinos\u00A0\u00A0\u00A0\u00A0Edições Afrontamento\u00A0\u00A0\u00A0\u00A02018',
     text: "'E' tem assim uma tarefa a cumprir, a responsabilidade sobre a construção do significado do que lhe é dado a ver, sobre a compreensão da coisa cénica. Mais, é-lhe exigido o conhecimento dos códigos teatrais, da simbologia dos signos, da função da ficção; este é o bilhete que 'E' deve adquirir para se poder sentar, em total liberdade, defronte da cena teatral. A cena é diversa da realidade, ainda que possa enunciar um mundo possível não abandona, nunca, a propriedade do valor simbólico (...)",
     next: "F020-2",
   },
@@ -2121,7 +2121,7 @@ const cosmosData = [
     type: "texto",
     caption: "Uncanny",
     caption2:
-      'Para lá do Hábito ou "Boi" não é um Boi\u00A0\u00A0\u00A0\u00A0\Figurinos\u00A0\u00A0\u00A0\u00A0\Edições Afrontamento\u00A0\u00A0\u00A0\u00A0\2018',
+      'Para lá do Hábito ou "Boi" não é um Boi\u00A0\u00A0\u00A0\u00A0Figurinos\u00A0\u00A0\u00A0\u00A0Edições Afrontamento\u00A0\u00A0\u00A0\u00A02018',
     text: "Em The Uncanny Freud descreve um estado de estranho desconforto diante de um objecto familiar mas desconhecido; familiar porque pertence ao arquétipo universal, desconhecido porque não o compreendemos. Um fantasma, a morte, uma boneca viva, um animal falante, membros decepados, um morto-vivo. O uncanny refere-se a um modo de atracção e repulsa simultâneos, criando um efeito de desordem cognitiva que resulta, frequentemente, na recusa do objecto; este estado verifica-se com frequência em lugares do conhecimento onde a fronteira entre ficção e realidade é esbatida.",
     next: "F223",
   },
@@ -2133,7 +2133,7 @@ const cosmosData = [
     type: "texto",
     caption: "Linear e Pictórico",
     caption2:
-      'Para lá do Hábito ou "Boi" não é um Boi\u00A0\u00A0\u00A0\u00A0\Figurinos\u00A0\u00A0\u00A0\u00A0\Edições Afrontamento\u00A0\u00A0\u00A0\u00A0\2018',
+      'Para lá do Hábito ou "Boi" não é um Boi\u00A0\u00A0\u00A0\u00A0Figurinos\u00A0\u00A0\u00A0\u00A0Edições Afrontamento\u00A0\u00A0\u00A0\u00A02018',
     text: 'Ver por linhas é diverso do ver por manchas, linear e pictórico são dois modos sensíveis opostos, duas línguas diferentes. Ver por linhas é linear e táctil porque define o limite do objecto, promove o seu contorno, permite ao leitor a ideia de tocar as suas margens, ver por manchas, pelo contrário, é um modo pictórico e óptico porque promove a ideia de "uma percepção flutuante e esfumada da forma, dissolve a continuidade dos contornos, confere autonomia à composição..." (Perniola, 1998: 54),',
     next: "F280",
   },
@@ -2145,7 +2145,7 @@ const cosmosData = [
     type: "texto",
     caption: "Norma e Simetria",
     caption2:
-      'Para lá do Hábito ou "Boi" não é um Boi\u00A0\u00A0\u00A0\u00A0\Figurinos\u00A0\u00A0\u00A0\u00A0\Edições Afrontamento\u00A0\u00A0\u00A0\u00A0\2018',
+      'Para lá do Hábito ou "Boi" não é um Boi\u00A0\u00A0\u00A0\u00A0Figurinos\u00A0\u00A0\u00A0\u00A0Edições Afrontamento\u00A0\u00A0\u00A0\u00A02018',
     text: "Norma e simetria para o táctil, excepcional e insólito para o óptico; pela dissolução da forma, o óptico tende para o infinito, o informe, o abundante. A aparência da Morte rompe com o corpo-padrão do drama burguês, opõe-se ao paradigma da figuração no teatro naturalista e, através dos princípios da semiologia, permite leituras implicadas, particulares. Este corpo nu, estranho ao Teatro Nacional, ao naturalismo, ao domínio publico, abre-se enquanto conhecimento sensível — através do analógico — ao afecto.",
     next: "V005",
   },
@@ -2157,7 +2157,7 @@ const cosmosData = [
     type: "texto",
     caption: "Perceptos",
     caption2:
-      'Para lá do Hábito ou "Boi" não é um Boi\u00A0\u00A0\u00A0\u00A0\Figurinos\u00A0\u00A0\u00A0\u00A0\Edições Afrontamento\u00A0\u00A0\u00A0\u00A0\2018',
+      'Para lá do Hábito ou "Boi" não é um Boi\u00A0\u00A0\u00A0\u00A0Figurinos\u00A0\u00A0\u00A0\u00A0Edições Afrontamento\u00A0\u00A0\u00A0\u00A02018',
     text: '"Os perceptos não são já percepções, são independentes de um estado dos que as experimentaram; os afectos não são já sentimentos ou afecções, excedem a força dos que passam por eles." (Deleuze/Guattari, 1992: 144). Gil Deleuze e Félix Guattari nomeiam o percepto e o afecto como os dois tipos básicos de sensação de que a obra de arte é um compósito; não devem ser confundidos com o sentimento pessoal, são blocos de sensações autónomos e auto-suficientes que vão para além do sujeito, são impessoais, não devem nada àqueles que os experimentam. Perceptos e afectos resultam da experiência sensível através de lugares não previstos, não familiares, onde ocorre novo conhecimento, novas relações livres do peso do significado. Marcas de natureza analógica que estabelecem pontos de fuga, agentes de deformação.',
     next: "F051",
   },
@@ -2169,7 +2169,7 @@ const cosmosData = [
     type: "texto",
     caption: "A rejeição do não-padrão",
     caption2:
-      'Para lá do Hábito ou "Boi" não é um Boi\u00A0\u00A0\u00A0\u00A0\Figurinos\u00A0\u00A0\u00A0\u00A0\Edições Afrontamento\u00A0\u00A0\u00A0\u00A0\2018',
+      'Para lá do Hábito ou "Boi" não é um Boi\u00A0\u00A0\u00A0\u00A0Figurinos\u00A0\u00A0\u00A0\u00A0Edições Afrontamento\u00A0\u00A0\u00A0\u00A02018',
     text: "A rejeição do corpo magro que é tantas coisas para lá da magreza, embora por via desta, é a rejeição do não-padrão, não de qualidade física mas de qualidade sensível. Não de qualidade digital mas de qualidade analógica. 'E' rejeita a Morte, que rejeita 'E'. Não se trata de rejeição sobre o desconhecido mas sobre o devir, sobre sensação e sobre afinidade — na verdade, nem sabemos se se trata de rejeição, pois apenas conhecemos a sua verbalização. Costelas impróprias para o palco? 'E' impróprio para a plateia? Não! O percepto não resulta nem tem lugar por via de processos binários, a sua recusa exige reconhecimento, logo, é composto pela mesma matéria: o sensível. Trata-se então de um jogo, 'E' recusa um conjunto de linhas de fuga que a desterritorialização produziu sobre o corpo da actriz, optando por outras linhas de fuga. Quais? Não saberemos. Mas conhecemos o corpo da Morte e conhecemos a sua potência.",
     next: "V022",
   },
@@ -2181,7 +2181,7 @@ const cosmosData = [
     type: "texto",
     caption: "Aparência",
     caption2:
-      'Para lá do Hábito ou "Boi" não é um Boi\u00A0\u00A0\u00A0\u00A0\Figurinos\u00A0\u00A0\u00A0\u00A0\Edições Afrontamento\u00A0\u00A0\u00A0\u00A0\2018',
+      'Para lá do Hábito ou "Boi" não é um Boi\u00A0\u00A0\u00A0\u00A0Figurinos\u00A0\u00A0\u00A0\u00A0Edições Afrontamento\u00A0\u00A0\u00A0\u00A02018',
     text: "Significante e significado divergem, a aparência sobrepõe-se à ideia mental do objecto; aqui, a linguagem de natureza analógica bloqueia a relação de convenção que deveria dar lugar ao reconhecimento do signo. A magreza na seminudez corrompe o significado da Morte. O nú, só por si, provoca uma \"estranheza inquietante\" (Pavis 2003: 165), condição que 'E' deveria ter presente. Não deve a figura da Morte causar desconforto, inquietação? Existe uma linha entre bom e mau desconforto?",
     next: "F240-2",
   },
@@ -2193,7 +2193,7 @@ const cosmosData = [
     type: "texto",
     caption: "Afinidade",
     caption2:
-      "Fixar o Que Não Pode Ser Fixado\u00A0\u00A0\u00A0\u00A0\Teatro do Vestido – um dicionário\u00A0\u00A0\u00A0\u00A0\Bicho do Mato\u00A0\u00A0\u00A0\u00A0\2018",
+      "Fixar o Que Não Pode Ser Fixado\u00A0\u00A0\u00A0\u00A0Teatro do Vestido – um dicionário\u00A0\u00A0\u00A0\u00A0Bicho do Mato\u00A0\u00A0\u00A0\u00A02018",
     text: '(…) Não sobre as qualidades da sua dramaturgia mas sobre afinidade, sobre imanência, sobre blocos de sensações. Percepto, palimpsesto, rizoma. Os conceitos, agora lentes, lupas que explodem no interior da cena; domínios que me ferem, que me desfazem, que me alimentam. (…)\n\n "O acto de resistência, parece-me, tem dois lados: é humano e é também um acto artístico. Apenas o acto de resistência resiste à morte, seja na forma de uma obra de arte, seja na forma de uma luta de homens." (Deleuze, 1987)',
     next: "T025",
   },
@@ -2205,7 +2205,7 @@ const cosmosData = [
     type: "texto",
     caption: "Percepto e Afecto",
     caption2:
-      "Fixar o Que Não Pode Ser Fixado\u00A0\u00A0\u00A0\u00A0\Teatro do Vestido – um dicionário\u00A0\u00A0\u00A0\u00A0\Bicho do Mato\u00A0\u00A0\u00A0\u00A0\2018",
+      "Fixar o Que Não Pode Ser Fixado\u00A0\u00A0\u00A0\u00A0Teatro do Vestido – um dicionário\u00A0\u00A0\u00A0\u00A0Bicho do Mato\u00A0\u00A0\u00A0\u00A02018",
     text: "A obra de arte é independente do leitor, do seu modelo, do seu autor. Estes experimentam-na, de modo diverso, por via de um conjunto de sensações vitais que os aproxima do conhecimento sensível. Percepto e afecto sobrevivem, explodem na inverosimilhança geométrica, na imperfeição física, na anomalia orgânica.",
     next: "F155-3",
   },
@@ -2217,7 +2217,7 @@ const cosmosData = [
     type: "texto",
     caption: "Apelar ao dionisíaco",
     caption2:
-      "Fixar o Que Não Pode Ser Fixado\u00A0\u00A0\u00A0\u00A0\Teatro do Vestido – um dicionário\u00A0\u00A0\u00A0\u00A0\Bicho do Mato\u00A0\u00A0\u00A0\u00A0\2018",
+      "Fixar o Que Não Pode Ser Fixado\u00A0\u00A0\u00A0\u00A0Teatro do Vestido – um dicionário\u00A0\u00A0\u00A0\u00A0Bicho do Mato\u00A0\u00A0\u00A0\u00A02018",
     text: "Apelar ao dionisíaco por via da festa, da comida, do vinho, da música, da acção do espectador. Abrir para a ruptura do corpo, para a ruptura da personalidade, para a ruptura da individualidade.",
     next: "V027",
   },
@@ -2229,7 +2229,7 @@ const cosmosData = [
     type: "texto",
     caption: "Uma ideia é um acontecimento",
     caption2:
-      "Fixar o Que Não Pode Ser Fixado\u00A0\u00A0\u00A0\u00A0\Teatro do Vestido – um dicionário\u00A0\u00A0\u00A0\u00A0\Bicho do Mato\u00A0\u00A0\u00A0\u00A0\2018",
+      "Fixar o Que Não Pode Ser Fixado\u00A0\u00A0\u00A0\u00A0Teatro do Vestido – um dicionário\u00A0\u00A0\u00A0\u00A0Bicho do Mato\u00A0\u00A0\u00A0\u00A02018",
     text: "Tradicionalmente a produção de conhecimento organiza-se de modo hierárquico e articulado. Vertical. Parte de um acontecimento – uma ideia é um acontecimento - e desenvolve-se sequencialmente, inscrito em procedimentos lineares onde o novo pressuposto é uma variante directa do anterior. Encontramos no último passo do conhecimento vestígios do primeiro passo, seja qual for a distância – ou o tempo – que os separam. Uma árvore: raiz, tronco, ramos, folhas. A folha contém toda a informação sobre a natureza da árvore, a folha contém em si toda a sua história. O mesmo para os ramos, para o tronco, para as raízes, todos contêm a história do seu passado. A folha-conhecimento guarda consigo o percurso raiz-folha. (…) (agora) o conhecimento é produzido de modo diverso, não há uma raiz, uma única semente que dá lugar a ramos, a folhas. Não existe o procedimento linear. Existem antes inúmeras raízes que se desenvolvem não sobre a verticalidade mas em qualquer direcção, uma rede de ligações infinita sem hierarquia, sem unidades. Já não raiz mas rizoma que estabelece ligações através de qualquer ponto ainda que de natureza diversa, que não regressa a si. O rizoma não tem princípio nem fim, mas um meio por onde cresce e transborda. (depois de Gilles Deleuze & Félix Guattari)",
     next: "V050",
   },
@@ -2240,7 +2240,7 @@ const cosmosData = [
     col: 30,
     type: "texto",
     caption: "Largo do Intendente",
-    caption2: "Do Largo ou Do Tirar pelo Natural\u00A0\u00A0\u00A0\u00A0\Folha da sala\u00A0\u00A0\u00A0\u00A0\2020",
+    caption2: "Do Largo ou Do Tirar pelo Natural\u00A0\u00A0\u00A0\u00A0Folha da sala\u00A0\u00A0\u00A0\u00A02020",
     text: "O Largo do Intendente encontra-se num estado de metamorfose como grande parte da cidade de Lisboa. (…) Alguns de nós parte, muda de lugar. Muda a sua geografia e a sua identidade que pertencia aquele lugar que já não é seu. Há de certa forma uma espécie de morte. O retrato faz o elogio do monumento, do que já não existe. Do passado. Feito ao natural, presencialmente, olhos nos olhos. De como é, se se pode dizer assim, participar numa ideia de realidade - ainda que existam realidades – que combata a ideia de fronteira. Que ao tirar pelo natural se invente um novo conhecimento, de humanidade.\nIdosos, sem-abrigo, consumidores de substâncias psicoativas, antigos lojistas. É este o corpus deste trabalho.",
     next: "F130",
   },
@@ -2251,7 +2251,7 @@ const cosmosData = [
     col: 10,
     type: "texto",
     caption: "Persona",
-    caption2: "Persona\u00A0\u00A0\u00A0\u00A0\Folha de sala\u00A0\u00A0\u00A0\u00A0\2022",
+    caption2: "Persona\u00A0\u00A0\u00A0\u00A0Folha de sala\u00A0\u00A0\u00A0\u00A02022",
     text: "Persona é este grupo de pessoas com origens diversas que, ainda assim, partilha o que nos une: a humanidade. Como se todos pudéssemos ser qualquer um. Como se cada um de nós fosse todos por um momento. Como se, de uma vez por todas, a palavra futuro deixasse de ser uma grilheta.",
     next: "F109-2",
   },
@@ -2263,7 +2263,7 @@ const cosmosData = [
     type: "texto",
     caption: "A Cidade Fala",
     caption2:
-      "A Cidade Fala – Do tirar pelo natural\u00A0\u00A0\u00A0\u00A0\2025",
+      "A Cidade Fala – Do tirar pelo natural\u00A0\u00A0\u00A0\u00A02025",
     text: "(…) Em A Cidade Fala um conjunto de pescadores, de construtores navais e de antigas operárias conserveiras da fábrica Feu Hermanos – agora o Museu Municipal - sentou-se num velho banco e olhou a câmara de frente. Sem idealização, glamourização ou dramatização. Não há mais mimese da natureza como mera aparência, mas antes, mimese como jogo que penetra mais fundo na realidade do corpo. Um bisturi, como Walter Benjamin apelida a câmara fotográfica. Olhos nos olhos. Primeiro sobre o fotógrafo-câmara depois sobre o espectador-leitor. Maria, Fátima, Rosalina, Telma, Isaurinda e Virgínia trabalharam neste lugar como operárias conserveiras nas décadas de cinquenta e sessenta do século passado. Olham-nos agora a partir das paredes do museu.\n\nUm operário enquanto obra de arte? Um sacrifício? A humanidade enquanto objecto de autocontemplação?\n\nA politização da arte depois da estetização da política.",
     next: "F072",
   },
