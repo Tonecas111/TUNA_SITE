@@ -666,7 +666,7 @@ const cosmosData = [
     col: 16,
     type: "fotografia",
     caption: "Branca 2020",
-    caption2: "Branca \u00A0\u00A0\u00A0\u00A0 #Do Tirar \u00A0\u00A0\u00A0\u00A0 2020",
+    caption2: "Branca \u00A0\u00A0\u00A0\u00A0 #Do Tirar Catalogue \u00A0\u00A0\u00A0\u00A0 2020",
     media: "media/images/F090_brancaDOtirar.webp",
     next: "F091-2",
   },
