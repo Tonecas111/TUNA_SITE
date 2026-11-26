@@ -41,7 +41,7 @@ const cosmosData = [
     col: 4,
     type: "fotografia",
     caption: "Wilson 1999",
-    caption2: "Bob Wilson\u00A0\u00A0\u00A0\u00A0\u00A0The Days Before\u00A0\u00A0\u00A0\u00A0\u00A01999",
+    caption2: "Bob Wilson \u00A0\u00A0\u00A0\u00A0\u00A0 The Days Before \u00A0\u00A0\u00A0\u00A0 1999",
     media: "media/images/F012_BOB_WILSON.webp",
     next: "T021",
   },
