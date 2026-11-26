@@ -1892,7 +1892,7 @@ const cosmosData = [
     col: 4,
     type: "texto",
     caption: "Chegou-se perto",
-    caption2: "Mal da Juventude\u00A0\u00A0folha de sala\u00A0\u00A01996",
+    caption2: "Mal da Juventude\u00A0\u00A0\u00A0folha de sala\u00A0\u00A01996",
     text: "Cheia de medo. Cheia de medo não, completamente em pânico. Chegou-se perto, muito perto. Sentiu-lhe o bafo. As mãos quentes e peludas apertaram-lhe a cintura. Com um olhar seco avançou. Ela sentiu em poucos segundos a juventude a despedir-se. A barba por fazer arranhou-lhe a face esquerda.",
     next: "T024",
   },
