@@ -1881,7 +1881,7 @@ const cosmosData = [
     col: 18,
     type: "texto",
     caption: "Vinha ofegante",
-    caption2: "Mal da Juventude\u00A0\u00A0\u00A0\u00A0\u00A0folha de sala\u00A0\u00A0\u00A0\u00A0\u00A01996",
+    caption2: "Mal da Juventude\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0Folha de sala\u00A0\u00A0\u00A0\u00A0\u00A0\u00A01996",
     text: "Chegou atrasado. Ainda vinha ofegante por causa da última ladeira antes do prédio. Os últimos degraus daquele terceiro andar pareceram-lhe nunca mais terminar. O suor escorria-lhe em pequenas gotas pela testa. Entrou de rompante, mas parou logo a seguir à porta. Olhou-a, sentiu-se aliviado. Respirou fundo pela primeira vez naquele dia.",
     next: "V012",
   },
