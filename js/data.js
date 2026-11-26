@@ -1536,7 +1536,7 @@ const cosmosData = [
     col: 31,
     type: "video",
     caption: "Glória 1988",
-    caption2: "Grafitis\u00A0\u00A0\u00A0\u00A0\u00A030'Hi8\\u00A0\u00A0\u00A0\u00A0\u00A01988",
+    caption2: "Grafitis\u00A0\u00A0\u00A0\u00A0\u00A030'Hi8\u00A0\u00A0\u00A0\u00A0\u00A01988",
     media: "media/video/V011_ELE_GLORIAa_01.webm",
     poster: "media/posters/V011_ELE_GLORIAa_01.jpg",
     thumbTime: 5,
