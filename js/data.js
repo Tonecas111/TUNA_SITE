@@ -314,7 +314,7 @@ const cosmosData = [
     col: 20,
     type: "fotografia",
     caption: "#3 2018",
-    caption2: "Miguel \u00A0\u00A0\u00A0\u00A0 u00A0#3 \u00A0\u00A0\u00A0\u00A0 2018",
+    caption2: "Miguel & \u00A0\u00A0\u00A0\u00A0 #3 \u00A0\u00A0\u00A0\u00A0 2018",
     media: "media/images/F037-2_boneCELINElivro.webp",
     next: "F097",
   },
