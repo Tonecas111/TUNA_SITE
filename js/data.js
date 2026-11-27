@@ -1937,7 +1937,7 @@ const cosmosData = [
     type: "texto",
     caption: "Pelos olhos adentro",
     caption2:
-      "Dorme Devagar \u00A0\u00A0\u00A0\u00A0 Novas Dramaturgias Emergentes \u00A0\u00A0\u00A0\u00A0 Livros Cotovia \u00A0\u00A0\u00A0\u00A0 2001",
+      "Dorme Devagar \u00A0\u00A0\u00A0\u00A0 Dramaturgias Emergentes \u00A0\u00A0\u00A0\u00A0 Livros Cotovia \u00A0\u00A0\u00A0\u00A0 2001",
     text: "O homem tinha passado um ano inteiro a pedir à mulher para soltar o cabelo. Quando saiam, quando iam a festas, quando iam visitar a família dele. A mulher nunca soltou. Porque o cabelo ainda estava molhado do banho. Porque não dava jeito durante a viagem ou porque não tinha um espelho ali à mão e ficava sempre para quando chegassem aos sítios. Quando chegava esquecia-se sempre. O homem andou assim um ano inteiro. A única altura em que via a mulher com o cabelo solto era quando se deitavam. Logo depois apagava a luz ... E o homem dormia abraçado à mulher com os cabelos dela a fazerem-lhe cócegas no rosto e a entrarem-lhe pelo nariz, pela boca ... pelos olhos adentro.",
     next: "T018",
   },
@@ -1949,7 +1949,7 @@ const cosmosData = [
     type: "texto",
     caption: "Prazer em dar prazer",
     caption2:
-      "Dorme Devagar \u00A0\u00A0\u00A0\u00A0 Novas Dramaturgias Emergentes \u00A0\u00A0\u00A0\u00A0 Livros Cotovia \u00A0\u00A0\u00A0\u00A0 2001",
+      "Dorme Devagar \u00A0\u00A0\u00A0\u00A0 Dramaturgias Emergentes \u00A0\u00A0\u00A0\u00A0 Livros Cotovia \u00A0\u00A0\u00A0\u00A0 2001",
     text: "Fiquei a pensar nessa coisa do cabelo. Que raio? Será que a mulher não tinha prazer em dar prazer ao homem? Se calhar se ele lhe tem pedido para lhe fazer um broche ela fazia. Como as outras dez mil.",
     next: "F169",
   },
