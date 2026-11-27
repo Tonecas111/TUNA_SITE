@@ -534,7 +534,7 @@ const cosmosData = [
     col: 41,
     type: "fotografia",
     caption: "Eye 2018",
-    caption2: "Celine \u00A0\u00A0\u00A0\u00A0 2018",
+    caption2: "C \u00A0\u00A0\u00A0\u00A0 2018",
     media: "media/images/F66_CELINEagua_03.webp",
     next: "F110-3",
   },
